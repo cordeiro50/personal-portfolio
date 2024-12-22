@@ -1,0 +1,1123 @@
+css: 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppings', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:#020219;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.barrapretatopo{
+    position: absolute;
+    z-index: -1;
+    width: 1864px;
+    height: 1100px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.barralongaazul{
+    position: absolute;
+    z-index: -2;
+    width: 30px;
+    height: 4800px;
+    left: 75px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.container1{
+    padding: 10px 10%;
+}
+
+.header-logo{
+    position: absolute;
+    left: 170px;
+    top: 10px;
+}
+
+.header-tabs{
+    position: absolute;
+    right: 200px;
+    top: 25px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 25%;
+    height: 3px;
+    background: #14548d;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+/*-------------------about--------------------*/
+#about{
+    padding: 60px 0;
+    color: #fff;
+}
+
+.marcadorazul1{
+    position: absolute;
+    width: 170px;
+    top: 1000px;
+    left: 0px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.selfie{
+    border-radius: 8px;
+    width: 400px;
+    position: absolute;
+    top: 1040px;
+    right: 200px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.about-col-2{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+}
+
+.about-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.barraazul1{
+    border-radius: 10px;
+    position: absolute;
+    z-index: -2;
+    width: 255px;
+    top: 275px;
+    left: 10px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.barraazul2{
+    border-radius: 10px;
+    position: absolute;
+    z-index: -2;
+    width: 255px;
+    top: 275px;
+    left: 328px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.barraazul3{
+    border-radius: 10px;
+    position: absolute;
+    z-index: -2;
+    width: 255px;
+    top: 275px;
+    left: 655px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.about-text1{
+    font-size: 25px;
+    width: 1000px;
+    word-wrap: break-word;
+}
+
+.about-text2{
+    font-size: 25px;
+    width: 1000px;
+    word-wrap: break-word;
+}
+
+.networking-text{
+    position: absolute;
+    left: 20px;
+    top: 510px;
+}
+
+.networking-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+    width: 150px;
+    top: 350px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.virtualmachine-text{
+    position: absolute;
+    left: 225px;
+    top: 510px;
+}
+
+.virtualmachine-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 245px;
+    width: 150px;
+    top: 350px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.operatingsystems-text{
+    position: absolute;
+    left: 470px;
+    top: 510px;
+}
+
+.operatingsystems-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 510px;
+    width: 150px;
+    top: 350px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.hardware-text{
+    position: absolute;
+    left: 770px;
+    top: 510px;
+}
+
+.hardware-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 750px;
+    width: 150px;
+    top: 350px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.microsoftoffice-text{
+    position: absolute;
+    left: 0px;
+    top: 775px;
+}
+
+.microsoftoffice-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+    width: 150px;
+    top: 610px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.clanguage-text{
+    position: absolute;
+    left: 250px;
+    top: 775px;
+}
+
+.clanguage-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 245px;
+    width: 150px;
+    top: 610px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.htmlcss-text{
+    position: absolute;
+    left: 520px;
+    top: 775px;
+}
+
+.htmlcss-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 510px;
+    width: 150px;
+    top: 610px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.graphicarts-text{
+    position: absolute;
+    left: 750px;
+    top: 775px;
+}
+
+.graphicarts-img{
+    border-radius: 5px;
+    position: absolute;
+    left: 750px;
+    width: 150px;
+    top: 610px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.teleperformance-text{
+    position: absolute;
+    left: 150px;
+    top: 380px;
+}
+
+.teleperformance-img{
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    left: 10px;
+    top: 365px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.worldprint-text{
+    position: absolute;
+    left: 150px;
+    top: 520px;
+}
+
+.worldprint-img{
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    left: 10px;
+    top: 500px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.irn-text{
+    position: absolute;
+    left: 150px;
+    top: 650px;
+}
+
+.irn-img{
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    left: 10px;
+    top: 650px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.ecl-text{
+    position: absolute;
+    left: 150px;
+    top: 380px;
+}
+
+.ecl-img{
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    left: 10px;
+    top: 365px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.ielts-text{
+    position: absolute;
+    left: 150px;
+    top: 530px;
+}
+
+.ielts-img{
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    left: 15px;
+    top: 500px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.cs50x-text{
+    position: absolute;
+    left: 150px;
+    top: 660px;
+}
+
+.cs50x-img{
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    left: 15px;
+    top: 640px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 30px 0px 30px;
+}
+
+.tab-links{
+    margin-right: 110px;
+    margin-left: 110px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #14548d;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width:50%
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    font-size: 17px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+
+/*------------- portfolio--------------*/
+
+#portfolio{
+    padding: 60px 0;
+    color: #fff;
+}
+
+.marcadorazul2{
+    position: absolute;
+    width: 170px;
+    top: 2100px;
+    left: 0px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.portfolio-col-1{
+    position: relative;
+    padding: 20px;
+    top: 1370px;
+    left: 180px;
+}
+
+.portfolio-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.work1-container{
+    position: relative;
+}
+
+.work1bytetech-img{
+    position: absolute;
+    width: 325px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.work1-title{
+    position: absolute;
+    top: 10px;
+    left: 350px;
+}
+
+.work1-text1{
+    position: absolute;
+    top: 60px;
+    left: 350px;
+    width: 55%;
+}
+
+.work2-container{
+    position: relative;
+    margin-top: 410px;
+}
+
+.work2websitebytetech-img{
+    position: absolute;
+    width: 325px;
+    left: 1090px;
+    top: 0px;
+    border-radius: 10px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.work2-title{
+    position: absolute;
+    top: 10px;
+    right: 757px;
+    text-align: right;
+}
+
+.work2-text2{
+    position: absolute;
+    top: 60px;
+    width: 1500px;
+    right: 755px;
+    text-align: right;
+}
+
+.word-download-bytetech{
+    position: relative;
+    top: 250px;
+    left: 350px;
+    font-size: 40px;
+}
+
+.pdf-download-bytetech{
+    position: relative;
+    top: 250px;
+    left: 360px;
+    font-size: 40px;
+}
+
+/*----------Certifications-------------*/
+
+#certifications{
+    padding: 60px 0;
+    color: #fff;
+}
+
+.marcadorazul3{
+    position: absolute;
+    width: 170px;
+    top: 3400px;
+    left: 0px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.certifications-col-1{
+    position: relative;
+    padding: 20px;
+    top: 1900px;
+    left: 180px;
+}
+
+.certifications-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.certifications-list{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.certifications-education-container{
+    position: relative;
+}
+
+.ecldeclaração-img{
+    position: absolute;
+    width: 400px;
+    left: 10px;
+    top: 80px;
+    border-radius: 10px;
+}
+
+.pdf-download-ecldeclaração{
+    position: relative;
+    top: 45px;
+    left: 435px;
+    font-size: 40px;
+}
+
+.ieltscertificado-img{
+    position: absolute;
+    width: 500px;
+    left: 910px;
+    top: 80px;
+    border-radius: 10px;
+}
+
+.pdf-download-ieltscertificado{
+    position: relative;
+    top: 45px;
+    left: 870px;
+    font-size: 40px;
+}
+
+.certifications-onlinecourses-container{
+    position: relative;
+    margin-top: 580px;
+}
+
+.certifications-onlinecourses-title1{
+    position: absolute;
+    top: 75px;
+}
+
+.certifications-onlinecourses-textlist{
+    position: absolute;
+    top: 150px;
+}
+
+/*----css para dar zoom nas imagens quando interagidas-----*/
+
+.ecldeclaração-img, .ieltscertificado-img{
+    width: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 85%;
+    max-height: 85%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/*--------------------footer--------------------*/
+#footer{
+    padding: 60px 0;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    top: 4800px;
+    background: linear-gradient(to right, #14548d, #020219);
+    color: #fff;
+    padding: 350px 0 30px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.footer-content{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-col-1-text{
+    width: 500px;
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+.html-icon{
+    position: absolute;
+    font-size: 30px;
+    left: 0px;
+    top: 195px;
+}
+
+.css-icon{
+    position: absolute;
+    font-size: 30px;
+    left: 30px;
+    top: 195px;
+}
+
+.verticalline-divider{
+    position: absolute;
+    width: 7px; 
+    height: 300px; 
+    bottom: 5px;
+    left: 600px;
+    background: linear-gradient(to bottom, transparent, #020219, transparent); 
+    margin: 0 auto; 
+}
+
+.contactme-email{
+    position: absolute;
+    color: #fff;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.contactme-phonenumber{
+    position: absolute;
+    color: #fff;
+    margin-top: 60px;
+    line-height: 20px;
+}
+
+.contactme-linkedin{
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
+    line-height: 20px;
+}
+
+.contactme-github{
+    position: absolute;
+    color: #fff;
+    margin-top: 140px;
+    line-height: 20px;
+}
+
+.contactme-instagram{
+    position: absolute;
+    color: #fff;
+    margin-top: 180px;
+    line-height: 20px;
+}
+
+.footer-col-2 a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-col-2 i{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.footer-col-2 a:hover{
+    color: #020219;
+}
+
+.btn{
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #14548d;
+    padding: 14px 0px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    transition: background-color 0.5s;
+}
+.btn:hover{
+    background-color: #14548d;
+    color: #fff;
+}
+
+.hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 15px;
+    left: 750px;
+    font-size: 17px;
+}
+
+/*---------------------------css for mobile screens---------------------------*/
+
+@media only screen and (max-width: 600px){
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html:
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Personal Portfolio - João Cordeiro</title>
+    <link rel="stylesheet" href="portfoliostyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="start">
+        <div>
+            <img src="images/barrapretatopo.png" class="barrapretatopo">
+            <img src="images/barralongaazul.png" class="barralongaazul">
+        </div>
+        <div class="container1">
+            <nav class="header-logo">
+                <ul>
+                    <li><a href="#"><h1 style="font-size: 4rem;">João Cordeiro.</h1></a></li>
+                </ul>
+            </nav>
+            <nav class="header-tabs">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">My Work</a></li>
+                    <li><a href="#">Certifications</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Specialized in Management and Installation of Networks</p>
+                <h1>Hello, I'm João Cordeiro from Portugal - Lisbon.</h1>
+                <h1>Welcome to my Portfolio!</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------------about----------------------->
+    <div id="about">
+        <div class="container2">
+            <img src="images/marcadorazul.png" class="marcadorazul1">
+            <div class="about-col-1">
+                <img src="images/joaocordeiroselfie.png" class="selfie">
+            </div>  
+            
+            <div class="about-col-2">
+                <h1 class="about-title" style="margin-bottom: 20px;">About Me</h1>
+                <p class="about-text1" style="margin-bottom: 10px;">I am a qualified and professional network technician, with three internships of experience in 
+                    networks and hardware configuration. I possess various creative and analytical skills, learning quickly and always 
+                    seeking new opportunities to expand my knowledge and improve my skills.</p>
+
+                    <p class="about-text2" style="margin-bottom: 10px;">I am currently seeking either a job to gain valuable experience or additional education to further enhance 
+                    my knowledge.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <img src="images/barraazul.png" class="barraazul1">
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <img src="images/barraazul.png" class="barraazul2">
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <img src="images/barraazul.png" class="barraazul3">
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li class="networking-text"><span style="font-size: 1.7rem;">Networking</span></li>
+                            <img src="images/networkingimg.png" class="networking-img">
+                            <li class="virtualmachine-text"><span style="font-size: 1.7rem;">Virtual Machine</span></li>
+                            <img src="images/virtualmachineimg.png" class="virtualmachine-img">
+                            <li class="operatingsystems-text"><span style="font-size: 1.7rem;">Operating Systems</span></li>
+                            <img src="images/operativesystemsimg.png" class="operatingsystems-img">
+                            <li class="hardware-text"><span style="font-size: 1.7rem;">Hardware</span></li>
+                            <img src="images/hardwareimg.png" class="hardware-img">
+                            <li class="microsoftoffice-text"><span style="font-size: 1.7rem;">Microsoft Office</span></li>
+                            <img src="images/microsoftofficeimg.png" class="microsoftoffice-img">
+                            <li class="clanguage-text"><span style="font-size: 1.7rem;">C Language</span></li>
+                            <img src="images/clanguageimg.png" class="clanguage-img">
+                            <li class="htmlcss-text"><span style="font-size: 1.7rem;">HTML, CSS</span></li>
+                            <img src="images/htmlcssimg.png" class="htmlcss-img">
+                            <li class="graphicarts-text"><span style="font-size: 1.7rem;">Graphic Arts</span></li>
+                            <img src="images/graphicartsimg.png" class="graphicarts-img">
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li class="teleperformance-text"><span>- IT Assistant Internship in Teleperformance, Final grade of 17/20. (200 hours) -</span><br> Tasks: Micro PC and SSF configuration, management of
+                            computers and laptops, and BIOS configuration.</li>
+                            <img src="images/teleperformanceimg.png" class="teleperformance-img">
+                            <li class="worldprint-text"><span>- IT Assistant / Multimedia Assistant Internship in World Print, Final grade of 18/20. (400 hours) -</span><br> Tasks: Worked with printers printing various items,
+                            worked with some aspects of multimedia aswell.</li>
+                            <img src="images/worldprintimg.png" class="worldprint-img">
+                            <li class="irn-text"><span>- IT Assistant Internship in  Instituto dos Registos e do Notariado (IRN), Final grade of 16/20. (500 hours) -</span><br>Tasks: Maintenance of voips / computers and
+                            management of equipment in citizen service centers.</li>
+                            <img src="images/irnimg.png" class="irn-img">
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li class="ecl-text"><span>- Professional Course at Escola Comércio de Lisboa -</span><br>Installation and Management of Computer Networks of secondary and proffesional level 4 with a final grade of 13.2 during 2021/2024. </li>
+                            <img src="images/eclimg.png" class="ecl-img">
+                            <li class="ielts-text"><span>- Cambridge IELTS -</span><br>C1 Level Certificate in English.</li>
+                            <img src="images/ieltsimg.png" class="ielts-img">
+                            <li class="cs50x-text"><span>- Online Course CS50x by Harvard -</span><br>Course based on instroduction to Computer Science involving various IT areas.</li>
+                            <img src="images/cs50ximg.png" class="cs50x-img">
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------portfolio----------------------------->
+    <div id="portfolio">
+        <div class="container3">
+            <img src="images/marcadorazul.png" class="marcadorazul2">
+            <div class="portfolio-col-1">
+                <h1 class="portfolio-title">My Work</h1>
+                <div class="portfolio-list">
+                    <div class="work1">
+                        <div class="work1-container">
+                            <img src="images/work1bytetechimg.png" class="work1bytetech-img">
+                            <div class="work-text">
+                                <h2 style="font-size: 32px;" class="work1-title">Byte Tech - Final Aptitude Test ECL</h2>
+                                <p style="font-size: 20px;" class="work1-text1">Implementation of a Network Infrastructure for a Conceptual Company.<br>ByteTech is an IT company specializing in the development of custom hardware for individual clients and companies across various sectors. Its main services include: design or architecture and creation of hardware, hardware configuration, testing, and hardware maintenance.<br><br><br>Download the Word / PDF document for more detailed information.<br>Note: The hyperlinks won't work this way.</p>
+                                <a class="word-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1).docx" download><i class="fa-regular fa-file-word"></i></a>
+                                <a class="pdf-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1) PDF.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work2">
+                        <div class="work2-container">
+                                <img src="images/work2websitebytetechimg.png" class="work2websitebytetech-img">
+                            <div class="work-text">
+                                <h2 style="font-size: 32px;" class="work2-title">Website Development - ByteTech</h2>
+                                <p style="font-size: 20px;" class="work2-text2">Development of a website to present ByteTech's services and portfolio, including interactive and responsive features.<br>Still in development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Certifications / Achievements-------------------->
+    <div id="certifications">
+        <div class="container4">
+            <img src="images/marcadorazul.png" class="marcadorazul3">
+            <div class="certifications-col-1">
+                <h1 class="certifications-title">Certifications / Achievements</h1>
+                <div class="certifications-list">
+                    <div class="certifications-education">
+                        <div class="certifications-education-container">
+                            <h2 style="font-size: 32px;" class="certifications-education-title1">Certificates Involving Education</h2>
+                            <div class="ieltscertificado-img-container">
+                                <img src="images/ieltscertificadoimg.png" class="ieltscertificado-img">
+                            </div>
+                            <div class="ecldeclaração-img-container">
+                                <img src="images/ecldeclaraçãoimg.png" class="ecldeclaração-img">
+                            </div>
+                            <a class="pdf-download-ieltscertificado" href="files/certificado ielts pfd.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
+                            <a class="pdf-download-ecldeclaração" href="files/declaração conclusão de curso ecl.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
+                        </div>
+                    </div>
+                    <div class="certifications-onlinecourses">
+                        <div class="certifications-onlinecourses-container">
+                            <h2 style="font-size: 32px;" class="certifications-onlinecourses-title1">Other Certifications / Online Courses.</h2>
+                            <ul class="certifications-onlinecourses-textlist">
+                                <li style="font-size: 20px;">CS50x Introduction to Computer Science Course by Harvard.</li>
+                                <li style="font-size: 20px;">Currently participating in CS50 Cybersecurity Course by Harvard.</li>
+                                <li style="font-size: 20px;">Currently attending driving lessons to obtain a category B driving license. </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------footer------------------------------>
+    <footer>
+        <div id="footer-tab">
+            <div class="container5">
+                <div class="footer-content">
+                    <div class="footer-col-1">
+                        <div class="footer-col-1-logo">
+                            <h1 style="font-size: 25px;">João Cordeiro.</h1>
+                        </div>
+                        <div class="footer-col-1-text">
+                            <p>This website was made using a combination of html and css along with some icons from Font Awesome.<br><br>If the website has any issues, please contact me.<br>Some of it's contents are subject to change.<br><br>Based on Lisbon, Portugal.</p>
+                        </div>
+                        <div class="footer-col-1-icons">
+                            <div class="html-icon"><i class="fa-brands fa-html5"></i></div>
+                            <div class="css-icon"></a><i class="fa-brands fa-css3-alt"></i></div>
+                        </div>
+                        <div class="verticalline-divider"></div>
+                    </div>
+
+                    <div class="footer-col-2">
+                        <h1 style="font-size: 25px;">Contact Me</h1>
+                        <a class="contactme-email" href="mailto:joaomanuelcarvalho500@gmail.com"><i class="fa-solid fa-envelope"></i><span style="font-size: 18px;">joaomanuelcarvalho500@gmail.com</span></a>
+                        <a class="contactme-phonenumber" href="tel:+351930687334"><i class="fa-solid fa-phone"></i><span style="font-size: 18px;">+351 930 687 334</span></a>
+                        <a class="contactme-linkedin" href="https://www.linkedin.com/in/joao-cordeiro-0793692aaiu4t5bt5k3"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="contactme-github" href="https://github.com/cordeiro50"><i class="fa-brands fa-github"></i></a>
+                        <a class="contactme-instagram" href="https://www.instagram.com/cordeirojc50/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                    <div class="footer-col-3">
+                        <div class="footer-col-3-downloadbtn">
+                            <h1 style="font-size: 25px;">Download my CV</h1>
+                            <a href="files/curriculo.2 em ingles.pdf" download class="btn">Download English CV</a>
+                            <a href="files/curriculo.2 em português.pdf" download class="btn">Download Portuguese CV</a>
+                            <a href="" download class="btn">Download Spanish CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr">
+                <p class="copyright">© 2024 João Cordeiro. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+
+
+    <!----html para dar zoom nas imagens quando interagidas----->
+
+    <div id="image-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script>
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('modal-image');
+        const closeModal = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.ecldeclaração-img, .ecldiploma-img, .ieltscertificado-img').forEach(img => {
+            img.addEventListener('click', () => {
+                modal.style.display = 'flex';
+                modalImg.src = img.src;
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+
+    <!-------------------------------------------------------->
+
+</body>
+
+</html>

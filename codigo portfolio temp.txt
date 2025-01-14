@@ -1,0 +1,2634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Portfolio - João Cordeiro</title>
+    <link rel="stylesheet" href="portfoliostyle.css">
+    <link rel="icon" href="images/favicon.ico?" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://emoji-css.afeld.me/emoji.css">
+    <!----use this tag for other projects------meta name="viewport" content="width=device-width, initial-scale=1.0"--------------->
+</head>
+
+<body class="body">
+
+    <div class="vertical-line"></div>
+    <div id="progress-line"></div>
+
+    <div id="particle-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="back-to-top" id="backToTop">
+        <a href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+<!------------------------------------------------------header----------------------------------------------------------->
+    <section id="header">
+
+        <div class="header-background">
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="area-background-bar"></div>
+        </div>
+
+        <div class="header-buttons">
+            <div class="menu-container">
+                <button class="menu-toggle" id="menu-toggle" data-tooltip="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="menu-dropdown">
+                    <div class="color-theme-buttons">
+                        <button><a href="#" id="light-mode" data-tooltip="Light Mode"><i class="fa-regular fa-sun"></i></a></button>
+                    </div>
+                    <div class="color-theme-buttons">
+                        <button><a href="#" id="dark-mode" data-tooltip="Dark Mode"><i class="fa-regular fa-moon"></i></a></button>
+                    </div>
+                    <div class="color-theme-buttons">
+                        <button><a href="#" id="system-mode" data-tooltip="System Theme"><i class="fa-solid fa-laptop"></i></a></button>
+                    </div>
+                    <div class="language-buttons">
+                        <i class="em em-flag-us" Language="en" data-tooltip="English (US)" aria-role="presentation" aria-label="U.S. Flag"></i>
+                    </div>
+                    <div class="language-buttons">
+                        <i class="em em-flag-pt" Language="pt" data-tooltip="Portuguese (PT)" aria-role="presentation" aria-label="Portugal Flag"></i>
+                    </div>
+                    <div class="language-buttons">
+                        <i class="em em-flag-ea" Language="es" data-tooltip="Spanish (ES)" aria-role="presentation" aria-label="Ceuta & Melilla Flag"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-content">
+
+            <nav>
+                <ul class="header-list">
+                    <div>
+                        <li><a href="#about" class="header-list1" style="font-size: 6rem;">João Cordeiro.</a></li>
+                    </div>
+
+                    <div class="header-list-tabs">
+                        <li><a href="#about" class="header-list2">About</a></li>
+                        <li><a href="#portfolio" class="header-list3">My Work</a></li>
+                        <li><a href="#certifications" class="header-list4">Certifications</a></li>
+                        <li><a href="#footer" class="header-list5">Contact Me</a></li>
+                    </div>
+
+                    
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Specialized in Management and Installation of Networks</p>
+                <h1>Hello, I'm João Cordeiro from Portugal - Lisbon.</h1>
+                <h1>Welcome to my Portfolio!</h1>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-------------------------------------------------------------about----------------------------------------------------------------->
+    <section id="about">
+        <div class="about-contents">
+
+            <div class="about-col1">
+                <div class="about-text">
+
+                    <div class="about-title">
+                        <h1>About Me</h1>
+                    </div>
+
+                    <div class="about-paragraph1">
+                        <p>I am a qualified and professional network technician, with three internships of experience in networks and hardware configuration. I possess various creative and analytical skills, learning quickly and always seeking new opportunities to expand my knowledge and improve my skills.</p>
+                    </div>
+
+                    <div class="about-paragraph2">
+                        <p>I am currently seeking either a job to gain valuable experience or additional education to further enhance my knowledge.</p>
+                    </div>
+
+                    <div class="about-tabs">
+
+                        <div class="about-tab-skills">
+                            <p class="tab-links active-link" onclick="opentab('about-skills', event)">Skills</p>
+                        </div>
+
+                        <div class="about-tab-experience">   
+                            <p class="tab-links" onclick="opentab('about-experience', event)">Experience</p>
+                        </div>
+
+                        <div class="about-tab-education">
+                            <p class="tab-links" onclick="opentab('about-education', event)">Education</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="front-back-selfie">
+
+                    <div class="front">
+                        <div class="shadow"></div>
+                        <img src="images/joaocordeiroselfie1.png" class="front-selfie">
+                    </div>
+
+                    <div class="back">
+                        <div class="shadow"></div>
+                        <img src="images/joaocordeiroselfie2.jpeg" class="back-selfie">
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="tab-contents active-tab" id="about-skills">
+                <ul class="about-skills-container">
+
+                    <div class="networking">
+                        <img src="images/networkingimg.png">
+                        <li><span>Networking</span></li>
+                    </div>
+
+                    <div class="virtualmachine">
+                        <img src="images/virtualmachineimg.png">
+                        <li><span>Virtual Machine</span></li>
+                    </div>
+
+                    <div class="operatingsystems">
+                        <img src="images/operativesystemsimg.png">
+                        <li><span>Operating Systems</span></li>
+                    </div>
+
+                    <div class="hardware">
+                        <img src="images/hardwareimg.png">
+                        <li><span>Hardware</span></li>
+                    </div>
+
+                    <div class="microsoftoffice">
+                        <img src="images/microsoftofficeimg.png">
+                        <li><span>Microsoft Office</span></li>
+                    </div>
+
+                    <div class="clanguage">
+                        <img src="images/clanguageimg.png">
+                        <li><span>C Language</span></li>
+                    </div>
+
+                    <div class="htmlcss">
+                        <img src="images/htmlcssimg.png">
+                        <li><span>HTML, CSS</span></li>
+                    </div>
+
+                    <div class="graphicarts">
+                        <img src="images/graphicartsimg.png">
+                        <li><span>Graphic Arts</span></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="about-experience">
+                <ul class="about-experience-container">
+                    <div>
+                        <img src="images/teleperformanceimg.png" class="teleperformance-img">
+                    </div>
+                    <div>
+                        <li class="teleperformance-text"><span>IT Assistant Internship in Teleperformance, Final grade of 17/20. (200 hours)</span><br> Tasks: Micro PC and SSF configuration, management of computers and laptops, and BIOS configuration.</li>
+                    </div>
+                    <div>
+                        <img src="images/worldprintimg.png" class="worldprint-img">
+                    </div>
+                    <div>
+                        <li class="worldprint-text"><span>IT Assistant / Multimedia Assistant Internship in World Print, Final grade of 18/20. (400 hours)</span><br> Tasks: Worked with printers printing various items, worked with some aspects of multimedia aswell.</li>
+                    </div>
+                    <div>
+                        <img src="images/irnimg.png" class="irn-img">
+                    </div>
+                    <div>
+                        <li class="irn-text"><span>IT Assistant Internship in  Instituto dos Registos e do Notariado (IRN), Final grade of 16/20. (500 hours)</span><br>Tasks: Maintenance of voips / computers and management of equipment in citizen service centers.</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="about-education">
+                <ul class="about-education-container">
+                    <div>
+                        <img src="images/eclimg.png" class="ecl-img">
+                    </div>
+                    <div>
+                        <li class="ecl-text"><span>Professional Course at Escola Comércio de Lisboa.</span><br>Installation and Management of Computer Networks of secondary and proffesional level 4 with a final grade of 13.2 during 2021/2024. </li>
+                    </div>
+                    <div>
+                        <img src="images/ieltsimg.png" class="ielts-img">
+                    </div>
+                    <div>
+                        <li class="ielts-text"><span>Cambridge IELTS</span><br>C1 Level Certificate in English.</li>
+                    </div>
+                    <div>
+                        <img src="images/cs50ximg.png" class="cs50x-img">
+                    </div>
+                    <div>
+                        <li class="cs50x-text"><span>Online Course CS50x by Harvard</span><br>Course based on instroduction to Computer Science involving various IT areas.</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!-------------------------------------------------------portfolio------------------------------------------------------------------->
+    <section id="portfolio">
+        <div class="portfolio-contents">
+
+            <div class="portfolio-title">
+                <h1>My Work</h1>
+            </div>
+
+            <div class="portfolio-work1">
+
+                <div>
+                    <img src="images/work1bytetechimg.png" class="work1bytetech-img">
+                </div>
+
+                <div class="work1-text">
+                    <h2>Byte Tech - Final Aptitude Test ECL</h2>
+                    <p>Implementation of a Network Infrastructure for a Conceptual Company.<br>ByteTech is an IT company specializing in the development of custom hardware for individual clients and companies across various sectors. Its main services include: design or architecture and creation of hardware, hardware configuration, testing, and hardware maintenance.<br><br><br>Download the Word / PDF document for more detailed information.<br>Note: The hyperlinks won't work this way.</p>
+                    <a class="word-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1).docx" download><i class="fa-regular fa-file-word"></i></a>
+                    <a class="pdf-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1) PDF.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
+                </div>
+
+            </div>
+                
+            <div class="portfolio-work2">
+
+                <div class="work2-text">
+                    <h2>Website Development - ByteTech</h2>
+                    <p>Development of a website to present ByteTech's services and portfolio, including interactive and responsive features.<br>Still in development.</p>
+                </div>
+
+                <div>
+                    <img src="images/work2websitebytetechimg.png" class="work2websitebytetech-img">
+                </div>
+
+            </div>
+
+            <div class="portfolio-work3">
+
+                <div>
+                    <img src="images/work3wipimg.png" class="work3wip-img">
+                </div>
+
+                <div class="work3-text">
+                    <h2>Website Development / Web Application Development</h2>
+                    <p>Creation of a landing page / showcase website and creation of a web application responsible for helping with various IT related tasks.<br>Still in development.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+<!------------------------------------------------Certifications / Achievements-------------------------------------------------------->
+    <section id="certifications">
+        <div class="certifications-contents">
+                
+            <div class="certifications-title">
+                <h1>Certifications / Achievements</h1>
+            </div>
+
+            <div class="certifications1">
+                <div class="certifications-sub-title1">
+                    <h2>Certificates Involving Education</h2>
+                </div>
+                <div class="certifications-education-imgs">
+                    <div>
+                        <img src="images/ecldeclaracaoimg.png" class="ecldeclaracao-img">
+                        <a class="pdf-download-ecldeclaracao" href="files/declaração conclusão de curso ecl.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
+                    </div>
+                    <div>
+                        <img src="images/ieltscertificadoimg.png" class="ieltscertificado-img">
+                        <a class="pdf-download-ieltscertificado" href="files/certificado ielts pfd.pdf" download><i class="fa-regular fa-file-pdf"></i></a>    
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="certifications2">
+                <div class="certifications-sub-title2">
+                    <h2>Other Certifications / Online Courses.</h2>
+                </div>
+                
+                <p>CS50x Introduction to Computer Science Course by Harvard.<br>Currently participating in CS50 Cybersecurity Course by Harvard.<br>Currently attending driving lessons to obtain a category B driving license.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-------------------------------------------------------footer-------------------------------------------------------------------->
+    <footer id="footer">
+        <div class="footer-class">
+            <div class="footer-content">
+
+                <div class="footer-col1">
+                    <div>
+                        <h1>João Cordeiro.</h1>
+                    </div>
+                    <div>
+                        <p>This website was made using a combination of HTML, CSS and Java Script along with some icons from Font Awesome.<br><br>If the website has any issues, please contact me.<br>Some of it's contents are subject to change.<br><br>Based on Lisbon, Portugal.</p>
+                    </div>
+                    <div class="footer-col1-icons">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                </div>
+                        
+                <div class="verticalline-divider"></div>
+                    
+                <div class="footer-col2">
+                    <div>
+                        <h1>Contact Me</h1>
+                    </div>
+                    <div class="footer-col2-iconsgrid">
+                        <div>
+                            <a class="contactme-email" href="mailto:joaomanuelcarvalho500@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>   
+                        <div>
+                            <a class="contactme-phonenumber" href="tel:+351930687334"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                        <div>
+                            <a class="contactme-linkedin" href="https://www.linkedin.com/in/joao-cordeiro-0793692aaiu4t5bt5k3"><i class="fa-brands fa-linkedin"></i></a>
+                        </div> 
+                        <div>  
+                            <a class="contactme-github" href="https://github.com/cordeiro50"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <div>
+                            <a class="contactme-instagram" href="https://www.instagram.com/cordeirojc50/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-col3">
+                    <div>
+                        <h1>Download my CV</h1>
+                    </div>
+                    <div class="downloadcveng">
+                        <a href="files/curriculo.3 em ingles.pdf" download class="btn">Download English CV</a>
+                    </div>
+                    <div class="downloadcvpt">
+                        <a href="files/curriculo.3 em português.pdf" download class="btn">Download Portuguese CV</a>
+                    </div>
+                    <div class="downloadcves">
+                        <a href="files/curriculo.3 em espanhol.pdf" download class="btn">Download Spanish CV</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright">
+                <p class="copyright">© 2024 João Cordeiro. All Rights Reserved.</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    <!---------------------------js----------------------------------->
+
+
+
+    <!--------dropdown menu---------->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuDropdown = document.querySelector('.menu-dropdown');
+
+        menuToggle.addEventListener('click', () => {
+            menuDropdown.classList.toggle('open');
+        });
+    </script>
+
+    <!--------light / dark themes---------->
+    <script>
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        }
+    
+    // Check for stored theme preference
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme) {
+            document.documentElement.setAttribute('data-theme', storedTheme);
+        } else {
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.setAttribute('data-theme', systemPrefersDark ? 'dark' : 'light');
+        }
+    
+    // Event listeners for theme buttons
+        document.getElementById('light-mode').addEventListener('click', (event) => {
+            event.preventDefault();
+            setTheme('light');
+        });
+    
+        document.getElementById('dark-mode').addEventListener('click', (event) => {
+            event.preventDefault();
+            setTheme('dark');
+        });
+    
+        document.getElementById('system-mode').addEventListener('click', (event) => {
+            event.preventDefault();
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            setTheme(systemPrefersDark ? 'dark' : 'light');
+        });
+    </script>
+
+    <!--------progress bar---------->
+    <script>
+        window.addEventListener('scroll', function() {
+            var progressLine = document.getElementById('progress-line');
+            var scrollHeight = document.documentElement.scrollHeight - window.innerHeight; 
+            var scrollPosition = window.scrollY;
+    
+            var progress = (scrollPosition / scrollHeight) * 100; 
+            progressLine.style.height = progress + "%"; 
+        });
+    </script>
+
+    <!--------back to top button---------->
+    <script>
+        window.addEventListener('scroll', () => {
+            const backToTop = document.getElementById('backToTop');
+            if (window.scrollY > 150) { 
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
+    </script>
+
+    <!--------about tabs---------->
+    <script>
+        function opentab(tabname, event) {
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+    
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <!----certifications image zoom----->
+    <div id="image-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script>
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('modal-image');
+        const closeModal = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.ecldeclaracao-img, .ieltscertificado-img').forEach(img => {
+            img.addEventListener('click', () => {
+                modal.style.display = 'flex';
+                modalImg.src = img.src;
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const modalContent = document.querySelector('.modal-content');
+
+        modalContent.addEventListener('mousemove', (e) => {
+            if (modalContent.classList.contains('zoomed')) {
+                const rect = modalContent.getBoundingClientRect();
+                const x = ((e.clientX - rect.left) / rect.width) * 100;
+                const y = ((e.clientY - rect.top) / rect.height) * 100;
+                modalContent.style.transformOrigin = `${x}% ${y}%`;
+            }
+        });
+
+        modalContent.addEventListener('click', () => {
+            if (modalContent.classList.contains('zoomed')) {
+                modalContent.classList.remove('zoomed');
+                modalContent.style.transformOrigin = "center";
+            } else {
+                modalContent.classList.add('zoomed');
+            }
+        });
+        });
+    </script>
+
+    <!--------translation---------->
+    <script>
+    let languageButtons = document.querySelectorAll(".language-buttons i"); 
+ 
+    let headerdata = {
+        en: {
+            header: {
+                headermenu: {
+                    headerabout: "About",
+                    headerportfolio: "My Work",
+                    headercertifications: "Certifications",
+                    headercontact: "Contact Me"
+                },
+                headertext: {
+                    headerspecialized: "Specialized in Management and Installation of Networks",
+                    headergreeting: "Hello, I'm João Cordeiro from Portugal - Lisbon.",
+                    headerwelcome: "Welcome to my Portfolio!"
+                }
+            }
+        },
+        pt: {
+            header: {
+                headermenu: {
+                    headerabout: "Sobre",
+                    headerportfolio: "Meu Trabalho",
+                    headercertifications: "Certificações",
+                    headercontact: "Contate-me"
+                },
+                headertext: {
+                    headerspecialized: "Especializado em Gestão e Instalacao de Redes",
+                    headergreeting: "Olá, sou João Cordeiro de Portugal - Lisboa.",
+                    headerwelcome: "Bem-vindo ao meu Portfólio!"
+                }
+            }
+        },
+        es: {
+            header: {
+                headermenu: {
+                    headerabout: "Sobre",
+                    headerportfolio: "Mi Trabajo",
+                    headercertifications: "Certificaciones",
+                    headercontact: "Contáctame"
+                },
+                headertext: {
+                    headerspecialized: "Especializado en Gestión e Instalación de Redes",
+                    headergreeting: "Hola, soy João Cordeiro de Portugal - Lisboa.",
+                    headerwelcome: "¡Bienvenido a mi Portafolio!"
+                }
+            }
+        }
+    }
+
+    let aboutdata = {
+        en: {
+            abouttitle: "About Me",
+            aboutText: {
+                aboutParagraph1: "I am a qualified and professional network technician, with three internships of experience in networks and hardware configuration. I possess various creative and analytical skills, learning quickly and always seeking new opportunities to expand my knowledge and improve my skills.",
+                aboutParagraph2: "I am currently seeking either a job to gain valuable experience or additional education to further enhance my knowledge."
+            },
+            aboutTabs: {
+                aboutSkillsTab: "Skills",
+                aboutExperienceTab: "Experience",
+                aboutEducationTab: "Education"
+            },
+            aboutSkills: {
+                aboutSkillNetworking: "Networking",
+                aboutSkillVirtualMachine: "Virtual Machine",
+                aboutSkillOperatingSystems: "Operating Systems",
+                aboutSkillHardware: "Hardware",
+                aboutSkillMicrosoftOffice: "Microsoft Office",
+                aboutSkillCLanguage: "C Language",
+                aboutSkillHtmlCss: "HTML, CSS",
+                aboutSkillGraphicArts: "Graphic Arts"
+            },
+            aboutExperience: {
+                teleperformancetext: "IT Assistant Internship in Teleperformance Final grade of 17/20 (200 hours).<br>Tasks: Micro PC and SSF configuration, management of computers and laptops, and BIOS configuration.",
+                worldprinttext: "IT Assistant / Multimedia Assistant Internship in World Print Final grade of 18/20 (400 hours).<br>Tasks: Worked with printers printing various items, worked with some aspects of multimedia as well.",
+                irntext: "IT Assistant Internship in Instituto dos Registos e do Notariado (IRN) Final grade of 16/20 (500 hours).<br>Tasks: Maintenance of VOIPs / computers and management of equipment in citizen service centers."
+            },
+            aboutEducation: {
+                ecltext: "Professional Course at Escola Comércio de Lisboa Installation and Management of Computer Networks of secondary and professional level 4 with a final grade of 13.2 during 2021/2024.",
+                ieltstext: "Cambridge IELTS C1 Level Certificate in English.",
+                cs50xtext: "Online Course CS50x by Harvard Course based on introduction to Computer Science involving various IT areas."
+            }
+        },
+        pt: {
+            abouttitle: "Sobre Mim",
+            aboutText: {
+                aboutParagraph1: "Sou um técnico de redes qualificado e profissional, com três estágios de experiência em redes e configuração de hardware. Possuo várias habilidades criativas e analíticas, aprendendo rapidamente e sempre vou atraz de novas oportunidades para expandir meus conhecimentos e melhorar minhas habilidades.",
+                aboutParagraph2: "Atualmente estou á procura de um emprego para ganhar experiência valiosa ou educação adicional para aprimorar ainda mais meu conhecimento."
+            },
+            aboutTabs: {
+                aboutSkillsTab: "Habilidades",
+                aboutExperienceTab: "Experiência",
+                aboutEducationTab: "Educação"
+            },
+            aboutSkills: {
+                aboutSkillNetworking: "Redes",
+                aboutSkillVirtualMachine: "Máquina Virtual",
+                aboutSkillOperatingSystems: "Sistemas Operativos",
+                aboutSkillHardware: "Hardware",
+                aboutSkillMicrosoftOffice: "Microsoft Office",
+                aboutSkillCLanguage: "Linguagem C",
+                aboutSkillHtmlCss: "HTML, CSS",
+                aboutSkillGraphicArts: "Artes Gráficas"
+            },
+            aboutExperience: {
+                teleperformancetext: "Estágio de Assistente de TI na Teleperformance Nota final de 17/20 (200 horas).<br>Tarefas: Configuração de Micro PC e SSF, gestão de computadores e laptops e configuração de BIOS.",
+                worldprinttext: "Estágio de Assistente de TI / Assistente Multimédia na World Print Nota final de 18/20 (400 horas).<br>Tarefas: Trabalhou com impressoras imprimindo vários itens, trabalhou também com alguns aspectos de multimídia.",
+                irntext: "Estágio de Assistente de TI no Instituto dos Registos e do Notariado (IRN) Nota final de 16/20 (500 horas).<br>Tarefas: Manutenção de VOIPs / computadores e gestão de equipamentos em centros de atendimento ao cidadão."
+            },
+            aboutEducation: {
+                ecltext: "Curso Profissional na Escola Comércio de Lisboa Instalação e Gestão de Redes Informáticas de nível secundário e profissional nível 4 com uma nota final de 13,2 durante 2021/2024.",
+                ieltstext: "Cambridge IELTS Certificado de Nível C1 em Inglês.",
+                cs50xtext: "Curso Online CS50x por Harvard Curso baseado em introdução à Ciência da Computação envolvendo várias áreas de TI."
+            }
+        },
+        es: {
+            abouttitle: "Sobre Mí",
+            aboutText: {
+                aboutParagraph1: "Soy un técnico de redes cualificado y profesional, con tres pasantías de experiencia en redes y configuración de hardware. Poseo varias habilidades creativas y analíticas, aprendo rápidamente y siempre busco nuevas oportunidades para expandir mis conocimientos y mejorar mis habilidades.",
+                aboutParagraph2: "Actualmente estoy buscando un trabajo para ganar experiencia valiosa o educación adicional para mejorar aún más mis conocimientos."
+            },
+            aboutTabs: {
+                aboutSkillsTab: "Habilidades",
+                aboutExperienceTab: "Experiencia",
+                aboutEducationTab: "Educación"
+            },
+            aboutSkills: {
+                aboutSkillNetworking: "Redes",
+                aboutSkillVirtualMachine: "Máquina Virtual",
+                aboutSkillOperatingSystems: "Sistemas Operativos",
+                aboutSkillHardware: "Hardware",
+                aboutSkillMicrosoftOffice: "Microsoft Office",
+                aboutSkillCLanguage: "Lenguaje C",
+                aboutSkillHtmlCss: "HTML, CSS",
+                aboutSkillGraphicArts: "Artes Gráficas"
+            },
+            aboutExperience: {
+                teleperformancetext: "Pasantía de Asistente de TI en Teleperformance Nota final de 17/20 (200 horas).<br>Tareas: Configuración de Micro PC y SSF, gestión de computadoras y laptops, y configuración de BIOS.",
+                worldprinttext: "Pasantía de Asistente de TI / Asistente Multimedia en World Print Nota final de 18/20 (400 horas).<br>Tareas: Trabajó con impresoras imprimiendo varios artículos, también trabajó con algunos aspectos de multimedia.",
+                irntext: "Pasantía de Asistente de TI en Instituto dos Registos e do Notariado (IRN) Nota final de 16/20 (500 horas).<br>Tareas: Mantenimiento de VOIPs / computadoras y gestión de equipos en centros de atención al ciudadano."
+            },
+            aboutEducation: {
+                ecltext: "Curso Profesional en Escola Comércio de Lisboa Instalación y Gestión de Redes Informáticas de nivel secundario y profesional nivel 4 con una nota final de 13,2 durante 2021/2024.",
+                ieltstext: "Cambridge IELTS Certificado de Nivel C1 en Inglés.",
+                cs50xtext: "Curso Online CS50x por Harvard Curso basado en introducción a la Ciencia de la Computación involucrando varias áreas de TI."
+            }
+        }
+    };
+
+    let portfoliodata = {
+        en: {
+            portfolio: {
+                portfoliotitle: "My Work",
+                portfoliowork1: {
+                    portfoliotitle1: "Byte Tech - Final Aptitude Test ECL",
+                    portfoliodescription1: "Implementation of a Network Infrastructure for a Conceptual Company.<br>ByteTech is an IT company specializing in the development of custom hardware for individual clients and companies across various sectors. Its main services include: design or architecture and creation of hardware, hardware configuration, testing, and hardware maintenance.<br><br><br>Download the Word / PDF document for more detailed information.<br>Note: The hyperlinks won't work this way.",
+                },
+                portfoliowork2: {
+                    portfoliotitle2: "Website Development - ByteTech",
+                    portfoliodescription2: "Development of a website to present ByteTech's services and portfolio, including interactive and responsive features.<br>Still in development."
+                },
+                portfoliowork3: {
+                    portfoliotitle3: "Website Development / Web Application Development",
+                    portfoliodescription3: "Creation of a landing page / showcase website and creation of a web application responsible for helping with various IT related tasks.<br>Still in development."
+                }
+            }
+        },
+        pt: {
+            portfolio: {
+                portfoliotitle: "Meu Trabalho",
+                portfoliowork1: {
+                    portfoliotitle1: "Byte Tech - Prova de Aptidão Final ECL",
+                    portfoliodescription1: "Implementação de uma Infraestrutura de Rede para uma Empresa Conceitual.<br>A ByteTech é uma empresa de TI especializada no desenvolvimento de hardware personalizado para clientes individuais e empresas de vários setores. Seus principais serviços incluem: design ou arquitetura e criação de hardware, configuração de hardware, testes e manutenção de hardware.<br><br><br>Baixe o documento Word / PDF para obter informações mais detalhadas.<br>Nota: Os hyperlinks não funcionarão desta forma.",
+                },
+                portfoliowork2: {
+                    portfoliotitle2: "Desenvolvimento de Website - ByteTech",
+                    portfoliodescription2: "Desenvolvimento de um site para apresentar os serviços e portfólio da ByteTech, incluindo recursos interativos e responsivos.<br>Ainda em desenvolvimento."
+                },
+                portfoliowork3: {
+                    portfoliotitle3: "Desenvolvimento de Website / Aplicação Web",
+                    portfoliodescription3: "Criação de uma landing page / site de vitrine e criação de uma aplicação web responsável por ajudar em várias tarefas relacionadas à TI.<br>Ainda em desenvolvimento."
+                }
+            }
+        },
+        es: {
+            portfolio: {
+                portfoliotitle: "Mi Trabajo",
+                portfoliowork1: {
+                    portfoliotitle1: "Byte Tech - Prueba de Aptitud Final ECL",
+                    portfoliodescription1: "Implementación de una Infraestructura de Red para una Empresa Conceptual.<br>ByteTech es una empresa de TI especializada en el desarrollo de hardware personalizado para clientes individuales y empresas de diversos sectores. Sus principales servicios incluyen: diseño o arquitectura y creación de hardware, configuración de hardware, pruebas y mantenimiento de hardware.<br><br><br>Descargue el documento Word / PDF para obtener información más detallada.<br>Nota: Los hipervínculos no funcionarán de esta manera.",
+                },
+                portfoliowork2: {
+                    portfoliotitle2: "Desarrollo de Sitio Web - ByteTech",
+                    portfoliodescription2: "Desarrollo de un sitio web para presentar los servicios y el portafolio de ByteTech, incluyendo funciones interactivas y responsivas.<br>Todavía en desarrollo."
+                },
+                portfoliowork3: {
+                    portfoliotitle3: "Desarrollo de Sitio Web / Aplicación Web",
+                    portfoliodescription3: "Creación de una página de aterrizaje / sitio web de muestra y creación de una aplicación web responsable de ayudar con varias tareas relacionadas con TI.<br>Todavía en desarrollo."
+                }
+            }
+        }
+    };
+
+    let certificationsdata = {
+        en: {
+            certifications: {
+                certificationstitle: "Certifications / Achievements",
+                educationcertifications: {
+                    educationcertificationstitle: "Certificates Involving Education",
+                },
+                othercertifications: {
+                    othercertificationstitle: "Other Certifications / Online Courses",
+                    othercertificationsdetails: "CS50x Introduction to Computer Science Course by Harvard.<br>Currently participating in CS50 Cybersecurity Course by Harvard.<br>Currently attending driving lessons to obtain a category B driving license."
+                }
+            }
+        },
+        pt: {
+            certifications: {
+                certificationstitle: "Certificações / Conquistas",
+                educationcertifications: {
+                    educationcertificationstitle: "Certificados Envolvendo Educação",
+                },
+                othercertifications: {
+                    othercertificationstitle: "Outras Certificações / Cursos Online",
+                    othercertificationsdetails: "Curso CS50x de Introdução à Ciência da Computação pela Harvard.<br>Atualmente participando do Curso de Cibersegurança CS50 pela Harvard.<br>Atualmente frequentando aulas de condução para obter a carta de condução categoria B."
+                }
+            }
+        },
+        es: {
+            certifications: {
+                certificationstitle: "Certificaciones / Logros",
+                educationcertifications: {
+                    educationcertificationstitle: "Certificados Relacionados con la Educación",
+                },
+                othercertifications: {
+                    othercertificationstitle: "Otras Certificaciones / Cursos en Línea",
+                    othercertificationsdetails: "Curso CS50x Introducción a la Ciencia de la Computación por Harvard.<br>Actualmente participando en el Curso de Ciberseguridad CS50 por Harvard.<br>Actualmente asistiendo a clases de conducción para obtener la licencia de conducir categoría B."
+                }
+            }
+        }
+    };
+
+    let footerdata = {
+        en: {
+            footer: {
+                footercol1: {
+                    footercol1title: "João Cordeiro.",
+                    footercol1description: "This website was made using a combination of HTML, CSS and Java Script along with some icons from Font Awesome.<br><br>If the website has any issues, please contact me.<br>Some of its contents are subject to change.<br><br>Based in Lisbon, Portugal."
+                },
+                footercol2: {
+                    footercol2title: "Contact Me",
+                },
+                footercol3: {
+                    footercol3title: "Download my CV",
+                    footerdownloadcveng: "Download English CV",
+                    footerdownloadcvpt: "Download Portuguese CV",
+                    footerdownloadcves: "Download Spanish CV"
+                },
+                footercopyright: "© 2024 João Cordeiro. All Rights Reserved."
+            }
+        },
+        pt: {
+            footer: {
+                footercol1: {
+                    footercol1title: "João Cordeiro.",
+                    footercol1description: "Este site foi feito usando uma combinação de HTML, CSS e Java Script junto com alguns ícones do Font Awesome.<br><br>Se o site tiver algum problema, entre em contato comigo.<br>Parte do seu conteúdo está sujeito a alterações.<br><br>Baseado em Lisboa, Portugal."
+                },
+                footercol2: {
+                    footercol2title: "Contate-me",
+                },
+                footercol3: {
+                    footercol3title: "Transfira o meu CV",
+                    footerdownloadcveng: "Transfira CV em Inglês",
+                    footerdownloadcvpt: "Transfira CV em Português",
+                    footerdownloadcves: "Transfira CV em Espanhol"
+                },
+                footercopyright: "© 2024 João Cordeiro. Todos os Direitos Reservados."
+            }
+        },
+        es: {
+            footer: {
+                footercol1: {
+                    footercol1title: "João Cordeiro.",
+                    footercol1description: "Este sitio web fue creado usando una combinación de HTML, CSS y JavaScript junto con algunos íconos de Font Awesome.<br><br>Si el sitio web tiene algún problema, por favor contácteme.<br>Parte de su contenido está sujeto a cambios.<br><br>Con sede en Lisboa, Portugal."
+                },
+                footercol2: {
+                    footercol2title: "Contáctame",
+                },
+                footercol3: {
+                    footercol3title: "Descarga mi CV",
+                    footerdownloadcveng: "Descargar CV en Inglés",
+                    footerdownloadcvpt: "Descargar CV en Portugués",
+                    footerdownloadcves: "Descargar CV en Español"
+                },
+                footercopyright: "© 2024 João Cordeiro. Todos los Derechos Reservados."
+            }
+        }
+    };
+
+
+ 
+
+    let headerspecializedHeadertext = document.querySelector(".header-text p");
+    let headergreetingHeadertext = document.querySelectorAll(".header-text h1")[0];
+    let headerwelcomeHeadertext = document.querySelectorAll(".header-text h1")[1];
+ 
+ 
+    let headeraboutHeadermenu = document.querySelector(".header-list2");
+    let headerportfolioHeadermenu = document.querySelector(".header-list3");
+    let headercertificationsHeadermenu = document.querySelector(".header-list4");
+    let headercontactHeadermenu = document.querySelector(".header-list5");
+
+
+
+    let abouttitle = document.querySelector(".about-title h1");
+    let aboutParagraph1 = document.querySelector(".about-paragraph1 p");
+    let aboutParagraph2 = document.querySelector(".about-paragraph2 p");
+    let aboutSkillsTab = document.querySelector(".about-tab-skills p");
+    let aboutExperienceTab = document.querySelector(".about-tab-experience p");
+    let aboutEducationTab = document.querySelector(".about-tab-education p");
+    
+    let aboutSkillNetworking = document.querySelector(".networking li");
+    let aboutSkillVirtualMachine = document.querySelector(".virtualmachine li");
+    let aboutSkillOperatingSystems = document.querySelector(".operatingsystems li");
+    let aboutSkillHardware = document.querySelector(".hardware li");
+    let aboutSkillMicrosoftOffice = document.querySelector(".microsoftoffice li");
+    let aboutSkillCLanguage = document.querySelector(".clanguage li");
+    let aboutSkillHtmlCss = document.querySelector(".htmlcss li");
+    let aboutSkillGraphicArts = document.querySelector(".graphicarts li");
+
+    let teleperformancetext = document.querySelector(".teleperformance-text");
+    let worldprinttext = document.querySelector(".worldprint-text");
+    let irntext = document.querySelector(".irn-text");
+
+    let ecltext = document.querySelector(".ecl-text");
+    let ieltstext = document.querySelector(".ielts-text");
+    let cs50xtext = document.querySelector(".cs50x-text");
+
+
+
+    let portfoliotitle = document.querySelector(".portfolio-title h1");
+
+    let portfoliotitle1 = document.querySelector(".work1-text h2");
+    let portfoliodescription1 = document.querySelector(".work1-text p");
+    let portfoliotitle2 = document.querySelector(".work2-text h2");
+    let portfoliodescription2 = document.querySelector(".work2-text p");
+    let portfoliotitle3 = document.querySelector(".work3-text h2");
+    let portfoliodescription3 = document.querySelector(".work3-text p");
+
+
+
+    let certificationstitle = document.querySelector(".certifications-title h1");
+    let educationcertificationstitle = document.querySelector(".certifications-sub-title1 h2");
+    let othercertificationstitle = document.querySelector(".certifications-sub-title2 h2");
+    let othercertificationsdetails = document.querySelector(".certifications2 p");
+
+
+
+    let footercol1title = document.querySelector(".footer-col1 h1");
+    let footercol1description = document.querySelector(".footer-col1 p");
+
+    let footercol2title = document.querySelector(".footer-col2 h1");
+
+    let footercol3title = document.querySelector(".footer-col3 h1");
+    let footerdownloadcveng = document.querySelector(".downloadcveng a");
+    let footerdownloadcvpt = document.querySelector(".downloadcvpt a");
+    let footerdownloadcves = document.querySelector(".downloadcves a");
+
+    let footercopyright = document.querySelector(".footer-copyright p");
+
+
+
+    
+ 
+    languageButtons.forEach(el => {
+        el.addEventListener("click", () => {
+            languageButtons.forEach(button => button.classList.remove("active"));
+ 
+            el.classList.add("active");
+ 
+            let language = el.getAttribute("Language");
+ 
+            headerspecializedHeadertext.textContent = headerdata[language].header.headertext.headerspecialized;
+            headergreetingHeadertext.textContent = headerdata[language].header.headertext.headergreeting;
+            headerwelcomeHeadertext.textContent = headerdata[language].header.headertext.headerwelcome;
+ 
+            headeraboutHeadermenu.textContent = headerdata[language].header.headermenu.headerabout;
+            headerportfolioHeadermenu.textContent = headerdata[language].header.headermenu.headerportfolio;
+            headercertificationsHeadermenu.textContent = headerdata[language].header.headermenu.headercertifications;
+            headercontactHeadermenu.textContent = headerdata[language].header.headermenu.headercontact;
+
+
+
+            abouttitle.textContent = aboutdata[language].abouttitle;
+            aboutParagraph1.textContent = aboutdata[language].aboutText.aboutParagraph1;
+            aboutParagraph2.textContent = aboutdata[language].aboutText.aboutParagraph2;
+
+            aboutSkillsTab.textContent = aboutdata[language].aboutTabs.aboutSkillsTab;
+            aboutExperienceTab.textContent = aboutdata[language].aboutTabs.aboutExperienceTab;
+            aboutEducationTab.textContent = aboutdata[language].aboutTabs.aboutEducationTab;
+
+            aboutSkillNetworking.textContent = aboutdata[language].aboutSkills.aboutSkillNetworking;
+            aboutSkillVirtualMachine.textContent = aboutdata[language].aboutSkills.aboutSkillVirtualMachine;
+            aboutSkillOperatingSystems.textContent = aboutdata[language].aboutSkills.aboutSkillOperatingSystems;
+            aboutSkillHardware.textContent = aboutdata[language].aboutSkills.aboutSkillHardware;
+            aboutSkillMicrosoftOffice.textContent = aboutdata[language].aboutSkills.aboutSkillMicrosoftOffice;
+            aboutSkillCLanguage.textContent = aboutdata[language].aboutSkills.aboutSkillCLanguage;
+            aboutSkillHtmlCss.textContent = aboutdata[language].aboutSkills.aboutSkillHtmlCss;
+            aboutSkillGraphicArts.textContent = aboutdata[language].aboutSkills.aboutSkillGraphicArts;
+
+            teleperformancetext.innerHTML = aboutdata[language].aboutExperience.teleperformancetext;
+            worldprinttext.innerHTML = aboutdata[language].aboutExperience.worldprinttext;
+            irntext.innerHTML = aboutdata[language].aboutExperience.irntext;
+
+            ecltext.textContent = aboutdata[language].aboutEducation.ecltext;
+            ieltstext.textContent = aboutdata[language].aboutEducation.ieltstext;
+            cs50xtext.textContent = aboutdata[language].aboutEducation.cs50xtext;
+
+
+
+            portfoliotitle.textContent = portfoliodata[language].portfolio.portfoliotitle;
+
+            portfoliotitle1.textContent = portfoliodata[language].portfolio.portfoliowork1.portfoliotitle1;
+            portfoliodescription1.innerHTML = portfoliodata[language].portfolio.portfoliowork1.portfoliodescription1;
+            portfoliotitle2.textContent = portfoliodata[language].portfolio.portfoliowork2.portfoliotitle2;
+            portfoliodescription2.innerHTML = portfoliodata[language].portfolio.portfoliowork2.portfoliodescription2;
+            portfoliotitle3.textContent = portfoliodata[language].portfolio.portfoliowork3.portfoliotitle3;
+            portfoliodescription3.innerHTML = portfoliodata[language].portfolio.portfoliowork3.portfoliodescription3;
+
+
+
+            certificationstitle.textContent = certificationsdata[language].certifications.certificationstitle
+            educationcertificationstitle.textContent = certificationsdata[language].certifications.educationcertifications.educationcertificationstitle
+            othercertificationstitle.textContent = certificationsdata[language].certifications.othercertifications.othercertificationstitle
+            othercertificationsdetails.innerHTML = certificationsdata[language].certifications.othercertifications.othercertificationsdetails;
+
+
+
+            footercol1title.textContent = footerdata[language].footer.footercol1.footercol1title;
+            footercol1description.innerHTML = footerdata[language].footer.footercol1.footercol1description;
+
+            footercol2title.textContent = footerdata[language].footer.footercol2.footercol2title;
+
+            footercol3title.textContent = footerdata[language].footer.footercol3.footercol3title;
+            footerdownloadcveng.textContent = footerdata[language].footer.footercol3.footerdownloadcveng;
+            footerdownloadcvpt.textContent = footerdata[language].footer.footercol3.footerdownloadcvpt;
+            footerdownloadcves.textContent = footerdata[language].footer.footercol3.footerdownloadcves;
+
+            footercopyright.textContent = footerdata[language].footer.footercopyright;
+        });
+    });
+
+
+</script>
+
+    
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppings', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-timeline: --page-scroll block;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --background-color-light: #F5F5F5;
+    --text-color-light: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+    [data-theme="light"]{
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+
+:root{
+    --background-color-dark: #1A1A1A;
+    --text-color-dark: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    [data-theme="dark"]{
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
+
+
+.body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.body section{
+    display: block;
+    width: 100%;
+}
+
+.vertical-line{
+    position: fixed;
+    top: 0;
+    left: 2%;
+    width: 1.3%;
+    height: 100vh;
+    background: #060648;
+    z-index: -13;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .vertical-line{
+    background: #020219;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#progress-line{
+    position: fixed;
+    top: 0;
+    left: 1.777%;
+    width: 1.7%;
+    height: 0;
+    background: #14548d;
+    z-index: -12;
+    transform-origin: 0 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] #progress-line{
+    background: #060648;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#particle-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -20;
+}
+
+.particle{
+    position: fixed;
+    border-radius: 50%;
+    background-color: #14548d;
+    box-shadow: 0 0 3px #14548d;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+.particle:nth-child(odd){
+    height: 9px;
+    width: 9px;
+}
+
+.particle:nth-child(even){
+    height: 7px;
+    width: 7px;
+}
+
+.particle:nth-child(1){
+    opacity: 0.46;
+    animation-name: particle1;
+    animation-delay: -0.2s;
+    transform: translate3d(55vw, 79vh, 22px);
+}
+
+@keyframes particle1{
+    100%{
+        transform: translate3d(80vw, 51vh, 9px);
+    }
+}
+
+.particle:nth-child(2){
+    opacity: 0.08;
+    animation-name: particle2;
+    animation-delay: -0.4s;
+    transform: translate3d(4vw, 21vh, 14px);
+}
+
+@keyframes particle2{
+    100%{
+        transform: translate3d(31vw, 35vh, 87px);
+    }
+}
+
+.particle:nth-child(3){
+    opacity: 0.41;
+    animation-name: particle3;
+    animation-delay: -0.6s;
+    transform: translate3d(78vw, 63vh, 52px);
+}
+
+@keyframes particle3{
+    100%{
+        transform: translate3d(42vw, 66vh, 40px);
+    }
+}
+
+.particle:nth-child(4){
+    opacity: 0.33;
+    animation-name: particle4;
+    animation-delay: -0.8s;
+    transform: translate3d(56vw, 32vh, 88px);
+}
+
+@keyframes particle4{
+    100%{
+        transform: translate3d(78vw, 4vh, 55px);
+    }
+}
+
+.particle:nth-child(5){
+    opacity: 0.4;
+    animation-name: particle5;
+    animation-delay: -1s;
+    transform: translate3d(79vw, 74vh, 14px);
+}
+
+@keyframes particle5{
+    100%{
+        transform: translate3d(2vw, 47vh, 68px);
+    }
+}
+
+.particle:nth-child(6){
+    opacity: 0.41;
+    animation-name: particle6;
+    animation-delay: -1.2s;
+    transform: translate3d(92vw, 27vh, 61px);
+}
+
+@keyframes particle6{
+    100%{
+        transform: translate3d(80vw, 35vh, 11px);
+    }
+}
+
+.particle:nth-child(7){
+    opacity: 0.74;
+    animation-name: particle7;
+    animation-delay: -1.4s;
+    transform: translate3d(55vw, 60vh, 75px);
+}
+
+@keyframes particle7{
+    100%{
+        transform: translate3d(63vw, 15vh, 59px);
+    }
+}
+
+.particle:nth-child(8){
+    opacity: 0.09;
+    animation-name: particle8;
+    animation-delay: -1.6s;
+    transform: translate3d(10vw, 10vh, 55px);
+}
+
+@keyframes particle8{
+    100%{
+        transform: translate3d(30vw, 64vh, 91px);
+    }
+}
+
+.particle:nth-child(9){
+    opacity: 0.89;
+    animation-name: particle9;
+    animation-delay: -1.8s;
+    transform: translate3d(3vw, 53vh, 98px);
+}
+
+@keyframes particle9{
+    100%{
+        transform: translate3d(60vw, 80vh, 97px);
+    }
+}
+
+.particle:nth-child(10){
+    opacity: 0.23;
+    animation-name: particle10;
+    animation-delay: -2s;
+    transform: translate3d(64vw, 77vh, 95px);
+}
+
+@keyframes particle10{
+    100%{
+        transform: translate3d(18vw, 5vh, 7px);
+    }
+}
+
+.particle:nth-child(11){
+    opacity: 0.96;
+    animation-name: particle11;
+    animation-delay: -2.2s;
+    transform: translate3d(35vw, 6vh, 101px);
+}
+
+@keyframes particle11{
+    100%{
+        transform: translate3d(88vw, 14vh, 71px);
+    }
+}
+
+.particle:nth-child(12){
+    opacity: 0.52;
+    animation-name: particle12;
+    animation-delay: -2.4s;
+    transform: translate3d(55vw, 12vh, 33px);
+}
+
+@keyframes particle12{
+    100%{
+        transform: translate3d(46vw, 5vh, 3px);
+    }
+}
+
+.particle:nth-child(13){
+    opacity: 0.95;
+    animation-name: particle13;
+    animation-delay: -2.6s;
+    transform: translate3d(90vw, 27vh, 70px);
+}
+
+@keyframes particle13{
+    100%{
+        transform: translate3d(51vw, 75vh, 18px);
+    }
+}
+
+.particle:nth-child(14){
+    opacity: 0.98;
+    animation-name: particle14;
+    animation-delay: -2.8s;
+    transform: translate3d(3vw, 73vh, 11px);
+}
+
+@keyframes particle14{
+    100%{
+        transform: translate3d(45vw, 46vh, 28px);
+    }
+}
+
+.particle:nth-child(15){
+    opacity: 0.69;
+    animation-name: particle15;
+    animation-delay: -3s;
+    transform: translate3d(86vw, 82vh, 49px);
+}
+
+@keyframes particle15{
+    100%{
+        transform: translate3d(16vw, 31vh, 36px);
+    }
+}
+
+.back-to-top{
+    position: absolute;
+    z-index: 5;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    pointer-events: none; 
+}
+
+.back-to-top a{
+    background-color: #14548d;
+    color: #fff;
+    position: fixed;
+    align-self: center;
+    bottom: 10px;
+    right: 20px;
+    padding: 8px 13px;
+    border-radius: 10px;
+    font-size: clamp(4rem, 7vw, 5rem);
+    width: clamp(6rem, 8vw, 7rem);
+    height: clamp(6rem, 8vw, 7rem);
+    text-align: center;
+    line-height: 1;
+}
+
+[data-theme="dark"] .back-to-top a{
+    background: #060648; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-to-top a:hover{
+    transform: translateY(-10%);
+    transition: 0.2s;
+}
+
+.back-to-top.show{
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+
+/*--------------------------------------------------------header-------------------------------------------------------------------*/
+#header{
+    position: relative;
+    padding: 0 0 20px 0;
+}
+
+.header-buttons{
+    position: absolute;
+    top: 1.5%;
+    right: 2.5%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-toggle{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: clamp(5rem, 4vw, 4rem); 
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-toggle:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-dropdown{
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #020219;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.menu-dropdown.open{
+    display: flex;
+}
+
+[data-theme="dark"] .menu-dropdown{
+    background-color: #060648;
+}
+
+
+
+
+.color-theme-buttons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.color-theme-buttons button{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: clamp(4rem, 3vw, 3rem); 
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.color-theme-buttons button:hover{
+    color: #14548d;
+}
+
+.color-theme-buttons a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.color-theme-buttons a::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+}
+
+.color-theme-buttons a:hover::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+.language-buttons{
+    position: relative; 
+}
+
+.language-buttons i{
+    font-size: clamp(3.5rem, 2.5vw, 2.5rem); 
+    cursor: pointer;
+}
+
+.language-buttons i::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+}
+
+.language-buttons i:hover::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+.header-content{
+    position: relative;
+    padding: 0 8%;
+}
+
+.header-list{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1%;
+    margin-bottom: 15%;
+    width: 120%;
+}
+
+.header-content a{
+    color: #fff;
+    font-size: 2.6rem;
+    user-select: none;
+}
+
+.header-content p{
+    color: #fff;
+    font-size: 3rem;
+    width: 48%;
+    word-wrap: break-word;
+}
+
+.header-content h1{
+    color: #fff;
+    font-size: 6rem;
+    width: 88%;
+    word-wrap: break-word;
+}
+
+.header-text{
+    position: relative;
+    margin-bottom: 30%;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*---------------------animated header-------------------------------*/
+
+.header-background{
+    position: relative;
+    z-index: -1;
+}
+
+.area{
+    background: #060648; 
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+    position: absolute; 
+    width: 100%;
+    height: 81rem;
+    z-index: -10;
+    pointer-events: none;
+    user-select: none;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .area{
+    background: #020219; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.area-background-bar{
+    background: #14548d;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+    position: absolute;
+    width: 100%;
+    height: 84rem;
+    z-index: -11;
+    pointer-events: none;
+    user-select: none;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .area-background-bar{
+    background: #060648;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.circles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.circles li{
+    position: absolute;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -15%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.circles li:nth-child(1){
+    left: 25%;  
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 5%;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+/*--------------animated blue underline------------------*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1.5% 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.6rem;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 25%;
+    height: 3px;
+    background: #14548d;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+/*----------------------------------------------------------about-------------------------------------------------------------------*/
+#about{
+    position: relative;
+    padding: 0 0 20px 0;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 10%;
+}
+
+.about-contents{
+    position: relative;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    gap: 3rem;
+    margin-bottom: 15%;
+}
+
+.about-col1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+}
+
+.about-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    gap: 3rem;
+    width: 70%;
+}
+
+.about-title{
+    font-size: 3.5rem;
+}
+
+.about-paragraph1, .about-paragraph2{
+    font-size: 2.5rem;
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.front-back-selfie{
+    position: relative;
+    width: 20vw;
+    min-width: 300px;
+    aspect-ratio: 3 / 4;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+    margin: auto;
+}
+
+.front, .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.front-selfie, .back-selfie{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    box-shadow: 100px -30px 3px gray;
+    transform-origin: center;
+    pointer-events: none;
+    user-select: none;
+}
+
+.front-selfie{
+    transform: rotateY(0deg);
+}
+
+.back-selfie{
+    transform: rotateY(180deg);
+}
+
+.front-back-selfie:hover{
+    transform: rotateY(180deg);
+}
+
+.about-tabs{
+    position: relative;
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 4%;
+    gap: 1rem;
+}
+
+.tab-links{
+    font-size: 2.5rem;
+    position: relative;
+    padding: 5% 10%;
+    color: #fff;
+    width: clamp(0px, 225px, 23rem);
+    height: auto;
+    background-color: #060648;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-links:hover{
+    background-color: #14548d;
+}
+
+.tab-links.active-link{
+    background-color: #14548d;
+}
+
+.tab-contents{
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+.about-skills-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6%;
+    width: 56%;
+    height: fit-content;
+    text-align: center;
+}
+
+.networking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.networking img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.networking li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.virtualmachine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.virtualmachine img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.virtualmachine li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.operatingsystems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.operatingsystems img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.operatingsystems li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.hardware{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hardware img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.hardware li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.microsoftoffice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.microsoftoffice img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.microsoftoffice li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.clanguage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clanguage img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.clanguage li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.htmlcss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.htmlcss img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.htmlcss li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.graphicarts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graphicarts img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.graphicarts li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.about-experience-container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    padding: 1% 0 1% 0;
+    row-gap: 6%;
+    column-gap: 6rem;
+}
+
+.about-experience-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teleperformance-img{
+    width: 13rem;
+    height: auto;
+    user-select: none;
+}
+
+.worldprint-img{
+    width: 13rem;
+    height: auto;
+    user-select: none;
+}
+
+.irn-img{
+    width: 13rem;
+    height: auto;
+    user-select: none;
+}
+
+.teleperformance-text{
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+.worldprint-text{
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+.irn-text{
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+.about-education-container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    padding: 1% 0 1% 0;
+    row-gap: 6%;
+    column-gap: 6rem;
+}
+
+.about-education-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ecl-img{
+    width: 13rem;
+    height: auto;
+    user-select: none;
+}
+
+.ielts-img{
+    width: 13rem;
+    height: auto;
+    user-select: none;
+}
+
+.cs50x-img{
+    width: 13rem;
+    height: auto;
+    user-select: none;
+}
+
+.ecl-text{
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+.ielts-text{
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+.cs50x-text{
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+/*---------------------------------------------------------portfolio---------------------------------------------------------------*/
+#portfolio{
+    position: relative;
+    padding: 0 0 20px 0;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 10%;
+}
+
+.portfolio-contents{
+    position: relative;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    gap: 5rem;
+    margin-bottom: 15%;
+}
+
+.portfolio-title{
+    font-size: 3.5rem;
+}
+
+.portfolio-work1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(220, 220, 220, 0.3);
+    border-radius: 20px;
+    padding: 1% 1%;
+    gap: 3%;
+    border: solid 3px #DCDCDC;
+}
+
+.portfolio-work1:hover{
+    background: #DCDCDC;
+    border: solid 3px #14548d;
+}
+
+[data-theme="dark"] .portfolio-work1{
+    background: rgba(26, 26, 26, 0.3);
+    border: solid 3px #000;
+}
+
+[data-theme="dark"] .portfolio-work1:hover{
+    background: #262626;
+    border: solid 3px #14548d;
+}
+
+.work1bytetech-img{
+    position: relative;
+    width: 22vw;
+    min-width: 300px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+.work1-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.work1-text h2{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.work1-text p{
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
+.work1-text a{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    width: 3%;
+}
+
+.portfolio-work2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background: rgba(220, 220, 220, 0.3);
+    border-radius: 20px;
+    padding: 1% 1%;
+    gap: 3%;
+    border: solid 3px #DCDCDC;
+}
+
+.portfolio-work2:hover{
+    background: #DCDCDC;
+    border: solid 3px #14548d;
+}
+
+[data-theme="dark"] .portfolio-work2{
+    background: rgba(26, 26, 26, 0.3);
+    border: solid 3px #000;
+}
+
+[data-theme="dark"] .portfolio-work2:hover{
+    background: #262626;
+    border: solid 3px #14548d;
+}
+
+.work2websitebytetech-img{
+    position: relative;
+    width: 22vw;
+    min-width: 300px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+.work2-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.work2-text h2{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.work2-text p{
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
+.portfolio-work3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(220, 220, 220, 0.3);
+    border-radius: 20px;
+    padding: 1% 1%;
+    gap: 3%;
+    border: solid 3px #DCDCDC;
+}
+
+.portfolio-work3:hover{
+    background: #DCDCDC;
+    border: solid 3px #14548d;
+}
+
+[data-theme="dark"] .portfolio-work3{
+    background: rgba(26, 26, 26, 0.3);
+    border: solid 3px #000;
+}
+
+[data-theme="dark"] .portfolio-work3:hover{
+    background: #262626;
+    border: solid 3px #14548d;
+}
+
+.work3wip-img{
+    position: relative;
+    width: 22vw;
+    min-width: 300px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+.work3-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.work3-text h2{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.work3-text p{
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
+/*---------------------------------------------------------certifications---------------------------------------------------------------*/
+#certifications{
+    position: relative;
+    padding: 0 0 20px 0;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 1% cover 10%;
+}
+
+.certifications-contents{
+    position: relative;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    gap: 5rem;
+    margin-bottom: 15%;
+}
+
+.certifications-title{
+    font-size: 3.5rem;
+}
+
+.certifications-sub-title1{
+    font-size: 2.5rem;
+}
+
+.certifications-education-imgs{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.ecldeclaracao-img{
+    position: relative;
+    width: 27vw;
+    min-width: 300px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pdf-download-ecldeclaracao{
+    font-size: 4rem;
+    user-select: none;
+}
+
+.ieltscertificado-img{
+    position: relative;
+    width: 27vw;
+    min-width: 300px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pdf-download-ieltscertificado{
+    font-size: 4rem;
+    user-select: none;
+}
+
+.certifications-sub-title2{
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+
+.certifications2 p{
+    margin-left: 1%;
+    font-size: 2rem;
+}
+
+/*----css para dar zoom nas imagens quando interagidas-----*/
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, transform-origin 0.3s ease;
+    cursor: zoom-in;
+}
+
+.modal-content.zoomed{
+    transform: scale(2);
+    cursor: zoom-out;
+}
+
+.close-btn{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*---------------------------------------------------------footer-------------------------------------------------------------------*/
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    background: linear-gradient(to right, #14548d, #020219);
+    color: #fff;
+    padding: 1.5% 0;
+    font-size: 1.8rem;
+}
+
+[data-theme="dark"] footer{
+    background: linear-gradient(to right, #060648, #020219);
+}
+
+.footer-class{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    gap: 3%;
+    margin-top: 1%;
+}
+
+.footer-content> *:nth-child(1){
+    margin-right: -1.5%;
+}
+
+.footer-col1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+.footer-col1-icons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-col1-icons i{
+    font-size: 4rem;
+}
+
+.verticalline-divider{
+    position: relative;
+    width: 10px; 
+    height: 300px; 
+    background: linear-gradient(to bottom, transparent, #020219, transparent); 
+}
+
+.footer-col2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 30%;
+    height: 30rem;
+    color: #fff;
+}
+
+.footer-col2-iconsgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35%;
+    width: 56%;
+    height: fit-content;
+    text-align: center;
+}
+
+.contactme-email, .contactme-phonenumber, .contactme-linkedin, .contactme-github, .contactme-instagram{
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer-col2 a:hover{
+    color: #14548d;
+}
+
+.footer-col3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    width: 23.5%;
+}
+
+.btn{
+    display: block;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #14548d;
+    padding: 14px 0px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    transition: background-color 0.5s;
+}
+
+.btn:hover{
+    background-color: #14548d;
+    color: #fff;
+}
+
+.footer-copyright{
+    margin-top: 3%;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color-light: #F5F5F5;
+        --text-color-light: #000;
+    }
+
+    [data-theme="light"] {
+        background-color: var(--background-color-light);
+        color: var(--text-color-light);
+    }
+}
+
+
+
+

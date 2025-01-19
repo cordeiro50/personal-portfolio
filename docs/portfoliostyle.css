@@ -1253,6 +1253,14 @@ nav ul li a:hover::after{
     font-size: 2rem;
 }
 
+.bytetech-website-link{
+    color: #14548d
+}
+
+.bytetech-website-link:hover{
+    color: #060648
+}
+
 .portfolio-work3{
     position: relative;
     display: flex;

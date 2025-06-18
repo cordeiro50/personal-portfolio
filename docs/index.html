@@ -168,6 +168,11 @@
             <div class="tab-contents active-tab" id="about-skills">
                 <ul class="about-skills-container">
 
+                    <div class="cybersecurity">
+                        <img src="images/cybersecurityimg.png">
+                        <li><span>CyberSecurity</span></li>
+                    </div>
+
                     <div class="networking">
                         <img src="images/networkingimg.png">
                         <li><span>Networking</span></li>
@@ -191,11 +196,6 @@
                     <div class="microsoftoffice">
                         <img src="images/microsoftofficeimg.png">
                         <li><span>Microsoft Office</span></li>
-                    </div>
-
-                    <div class="clanguage">
-                        <img src="images/clanguageimg.png">
-                        <li><span>C Language</span></li>
                     </div>
 
                     <div class="htmlcss">
@@ -636,12 +636,12 @@
                 aboutEducationTab: "Education"
             },
             aboutSkills: {
+                aboutSkillCyberSecurity: "CyberSecurity",
                 aboutSkillNetworking: "Networking",
                 aboutSkillVirtualMachine: "Virtual Machine",
                 aboutSkillOperatingSystems: "Operating Systems",
                 aboutSkillHardware: "Hardware",
                 aboutSkillMicrosoftOffice: "Microsoft Office",
-                aboutSkillCLanguage: "C Language",
                 aboutSkillHtmlCss: "HTML, CSS",
                 aboutSkillGraphicArts: "Graphic Arts"
             },
@@ -668,12 +668,12 @@
                 aboutEducationTab: "Educação"
             },
             aboutSkills: {
+                aboutSkillCyberSecurity: "CiberSegurança",
                 aboutSkillNetworking: "Redes",
                 aboutSkillVirtualMachine: "Máquina Virtual",
                 aboutSkillOperatingSystems: "Sistemas Operativos",
                 aboutSkillHardware: "Hardware",
                 aboutSkillMicrosoftOffice: "Microsoft Office",
-                aboutSkillCLanguage: "Linguagem C",
                 aboutSkillHtmlCss: "HTML, CSS",
                 aboutSkillGraphicArts: "Artes Gráficas"
             },
@@ -700,6 +700,7 @@
                 aboutEducationTab: "Educación"
             },
             aboutSkills: {
+                aboutSkillCyberSecurity: "CiberSeguridad",
                 aboutSkillNetworking: "Redes",
                 aboutSkillVirtualMachine: "Máquina Virtual",
                 aboutSkillOperatingSystems: "Sistemas Operativos",
@@ -894,12 +895,12 @@
     let aboutExperienceTab = document.querySelector(".about-tab-experience p");
     let aboutEducationTab = document.querySelector(".about-tab-education p");
     
+    let aboutSkillCyberSecurity = document.querySelector(".cybersecurity li");
     let aboutSkillNetworking = document.querySelector(".networking li");
     let aboutSkillVirtualMachine = document.querySelector(".virtualmachine li");
     let aboutSkillOperatingSystems = document.querySelector(".operatingsystems li");
     let aboutSkillHardware = document.querySelector(".hardware li");
     let aboutSkillMicrosoftOffice = document.querySelector(".microsoftoffice li");
-    let aboutSkillCLanguage = document.querySelector(".clanguage li");
     let aboutSkillHtmlCss = document.querySelector(".htmlcss li");
     let aboutSkillGraphicArts = document.querySelector(".graphicarts li");
 
@@ -974,12 +975,12 @@
             aboutExperienceTab.textContent = aboutdata[language].aboutTabs.aboutExperienceTab;
             aboutEducationTab.textContent = aboutdata[language].aboutTabs.aboutEducationTab;
 
+            aboutSkillCyberSecurity.textContent = aboutdata[language].aboutSkills.aboutSkillCyberSecurity;
             aboutSkillNetworking.textContent = aboutdata[language].aboutSkills.aboutSkillNetworking;
             aboutSkillVirtualMachine.textContent = aboutdata[language].aboutSkills.aboutSkillVirtualMachine;
             aboutSkillOperatingSystems.textContent = aboutdata[language].aboutSkills.aboutSkillOperatingSystems;
             aboutSkillHardware.textContent = aboutdata[language].aboutSkills.aboutSkillHardware;
             aboutSkillMicrosoftOffice.textContent = aboutdata[language].aboutSkills.aboutSkillMicrosoftOffice;
-            aboutSkillCLanguage.textContent = aboutdata[language].aboutSkills.aboutSkillCLanguage;
             aboutSkillHtmlCss.textContent = aboutdata[language].aboutSkills.aboutSkillHtmlCss;
             aboutSkillGraphicArts.textContent = aboutdata[language].aboutSkills.aboutSkillGraphicArts;
 

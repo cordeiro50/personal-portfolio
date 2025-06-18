@@ -873,6 +873,24 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
+.cybersecurity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cybersecurity img{
+    width: 16rem;
+    height: auto;
+    user-select: none;
+}
+
+.cybersecurity li{
+    margin-top: 2%;
+    font-size: 3rem;
+    list-style: none;
+}
+
 .networking{
     display: flex;
     flex-direction: column;
@@ -958,24 +976,6 @@ nav ul li a:hover::after{
 }
 
 .microsoftoffice li{
-    margin-top: 2%;
-    font-size: 3rem;
-    list-style: none;
-}
-
-.clanguage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.clanguage img{
-    width: 16rem;
-    height: auto;
-    user-select: none;
-}
-
-.clanguage li{
     margin-top: 2%;
     font-size: 3rem;
     list-style: none;

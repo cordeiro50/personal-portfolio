@@ -393,13 +393,10 @@
                         <h1>Download my CV</h1>
                     </div>
                     <div class="downloadcveng">
-                        <a href="files/curriculo.3 em ingles.pdf" download class="btn">Download English CV</a>
+                        <a href="files/curriculo.5 em ingles.pdf" download class="btn">Download English CV</a>
                     </div>
                     <div class="downloadcvpt">
-                        <a href="files/curriculo.3 em português.pdf" download class="btn">Download Portuguese CV</a>
-                    </div>
-                    <div class="downloadcves">
-                        <a href="files/curriculo.3 em espanhol.pdf" download class="btn">Download Spanish CV</a>
+                        <a href="files/curriculo.5 em português.pdf" download class="btn">Download Portuguese CV</a>
                     </div>
                 </div>
 
@@ -828,8 +825,7 @@
                 footercol3: {
                     footercol3title: "Download my CV",
                     footerdownloadcveng: "Download English CV",
-                    footerdownloadcvpt: "Download Portuguese CV",
-                    footerdownloadcves: "Download Spanish CV"
+                    footerdownloadcvpt: "Download Portuguese CV"
                 },
                 footercopyright: "© 2024 João Cordeiro. All Rights Reserved."
             }
@@ -846,8 +842,7 @@
                 footercol3: {
                     footercol3title: "Transfira o meu CV",
                     footerdownloadcveng: "Transfira CV em Inglês",
-                    footerdownloadcvpt: "Transfira CV em Português",
-                    footerdownloadcves: "Transfira CV em Espanhol"
+                    footerdownloadcvpt: "Transfira CV em Português"
                 },
                 footercopyright: "© 2024 João Cordeiro. Todos os Direitos Reservados."
             }
@@ -864,8 +859,7 @@
                 footercol3: {
                     footercol3title: "Descarga mi CV",
                     footerdownloadcveng: "Descargar CV en Inglés",
-                    footerdownloadcvpt: "Descargar CV en Portugués",
-                    footerdownloadcves: "Descargar CV en Español"
+                    footerdownloadcvpt: "Descargar CV en Portugués"
                 },
                 footercopyright: "© 2024 João Cordeiro. Todos los Derechos Reservados."
             }
@@ -939,7 +933,6 @@
     let footercol3title = document.querySelector(".footer-col3 h1");
     let footerdownloadcveng = document.querySelector(".downloadcveng a");
     let footerdownloadcvpt = document.querySelector(".downloadcvpt a");
-    let footerdownloadcves = document.querySelector(".downloadcves a");
 
     let footercopyright = document.querySelector(".footer-copyright p");
 
@@ -1019,7 +1012,6 @@
             footercol3title.textContent = footerdata[language].footer.footercol3.footercol3title;
             footerdownloadcveng.textContent = footerdata[language].footer.footercol3.footerdownloadcveng;
             footerdownloadcvpt.textContent = footerdata[language].footer.footercol3.footerdownloadcvpt;
-            footerdownloadcves.textContent = footerdata[language].footer.footercol3.footerdownloadcves;
 
             footercopyright.textContent = footerdata[language].footer.footercopyright;
         });

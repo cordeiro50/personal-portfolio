@@ -60,7 +60,6 @@ html{
     z-index: -13;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-}
 
 [data-theme="dark"] .vertical-line{
     background: #020219;

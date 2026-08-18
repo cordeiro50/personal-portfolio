@@ -66,7 +66,7 @@ html{
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#progress-line{
+#progress-line {
     position: fixed;
     top: 0;
     left: 1.777%;
@@ -78,6 +78,9 @@ html{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    pointer-events: none;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 [data-theme="dark"] #progress-line{
@@ -1796,6 +1799,10 @@ footer{
     color: #fff;
     padding: 1.5% 0;
     font-size: 1.8rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+    height: auto;
 }
 
 [data-theme="dark"] footer{
@@ -1927,7 +1934,4 @@ footer{
         color: var(--text-color-light);
     }
 }
-
-
-
 

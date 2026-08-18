@@ -260,90 +260,667 @@
 
 <!-------------------------------------------------------portfolio------------------------------------------------------------------->
     <section id="portfolio">
-        <div class="portfolio-contents">
+    <div class="portfolio-contents">
 
-            <div class="portfolio-title">
-                <h1>My Work</h1>
+        <div class="portfolio-title">
+            <h1>My Work</h1>
+            <h5>(From Most Recent to Oldest)</h5>
+        </div>
+
+        <div class="work-accordion-container">
+
+            <!-- WORK ITEM 1 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Final Project: Cybersecurity Infrastructure & Security Operations - UFCD 9197 CINEL</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This final project involved the complete design and implementation of a complex corporate network infrastructure, integrating physical Cisco equipment (router and switches) with virtualized firewalls, servers, and security tools. The network was segmented into multiple VLANs (Red, Venus, Marte, and Management) with a VyOS router simulating physical connections and pfSense (VenusSuf) and OPNsense (MarteSuf) firewalls enforcing strict security policies across Green, Orange, and WAN zones. The infrastructure included a Windows Server 2022 Domain Controller with structured OUs, users, and groups, providing DHCP, DNS, and RADIUS authentication for VPN access, alongside Linux-based systems for vulnerability scanning (OpenVAS/Nessus), centralized logging (Syslog-ng with Grafana, Loki, and Promtail), and a Wazuh SIEM for threat detection and active response.
+                                </p>
+                                <p class="work-description">
+                                    The project also featured the deployment of multiple VPNs (IPsec site-to-site, OpenVPN with RADIUS authentication, and WireGuard roadwarrior) to enable secure remote access between zones, as well as red team exercises including port scans, DOS attacks, and reverse shell exploitation from a Kali Linux machine. Security monitoring was reinforced with Snort (pfSense) and Suricata (OPNsense) intrusion detection systems, while web services were deployed on CentOS (Orange Venus) and Windows Core with IIS (Orange Marte), protected by a WAF with OWASP rules. The project was fully documented with detailed configurations, testing evidence, and validated against all functional requirements, demonstrating a comprehensive understanding of network security, system administration, and defensive operations in an enterprise environment.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/11/Projeto Final de Cibersegurança CET104 UFCD9197 – AJN.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/11/Projeto Final de Cibersegurança CET104 UFCD9197 – AJN - english.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                    <a href="https://lnkd.in/p/eFCtt2zT" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/11/11img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="portfolio-work1">
-
-                <div>
-                    <img src="images/work1bytetechimg.png" class="work1bytetech-img">
+            <!-- WORK ITEM 2 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Active Cybersecurity Infrastructure: Firewalls, VPNs & Secure Access Control - UFCD 9196 CINEL</span>
                 </div>
-
-                <div class="work1-text">
-                    <h2>Byte Tech - Final Aptitude Test ECL</h2>
-                    <p>Implementation of a Network Infrastructure for a Conceptual Company.<br>ByteTech is an IT company specializing in the development of custom hardware for individual clients and companies across various sectors. Its main services include: design or architecture and creation of hardware, hardware configuration, testing, and hardware maintenance.<br><br><br>Download the Word / PDF document for more detailed information.<br>Note: The hyperlinks won't work this way.</p>
-                    <a class="word-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1).docx" download><i class="fa-regular fa-file-word"></i></a>
-                    <a class="pdf-download-bytetech" href="files/empresa byte tech PAF (1) (1) (1) (1) (1) PDF.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved the implementation of a comprehensive security infrastructure using pfSense and OPNsense firewalls, with multiple network zones (Green, Orange, Blue) and advanced access controls. I configured DNS restrictions, time-based website filtering, and application blocking (Chrome Remote Desktop, email services, and TLDs from Russia). The project also included the deployment of four VPNs: an IPSec site-to-site tunnel between firewalls, an OpenVPN roadwarrior connection with RADIUS authentication against Active Directory (restricted to IT group members during business hours), and two WireGuard roadwarrior VPNs for remote access.
+                                </p>
+                                <p class="work-description">
+                                    Additional configurations included a Captive Portal with voucher-based authentication and bandwidth limiting on the Blue zone, as well as Suricata IDS/IPS with custom rules to detect port scans and DOS attacks.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/10/CET104_Trabalho_UFCD_9196_Fev_2026_João_CCordeiro.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/10/CET104_Trabalho_UFCD_9196_Fev_2026_João_CCordeiro - english.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/10/10img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-                
-            <div class="portfolio-work2">
 
-                <div class="work2-text">
-                    <h2>Byte Tech - Hardware Development Website</h2>
-                    <p>This multi-page website, created by João Cordeiro using HTML, CSS, and JavaScript, showcases a company specializing in hardware development services. With a professional layout, it provides detailed information about the company's offerings, team, and contact options, ensuring an engaging user experience.<br><br>The project allowed me to apply detailed and advanced techniques to effectively organize and present complex content across multiple pages while ensuring a seamless user experience.<br><br>Access the website on my GitHub or directly at: <a href="https://cordeiro50.github.io/byte-tech-hardwaredevelopment/" target="_blank" class="bytetech-website-link">cordeiro50.github.io/byte-tech-hardwaredevelopment/</a></p>
+            <!-- WORK ITEM 3 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Capture The Flag (CTF): Penetration Testing Challenge - UFCD 9194 CINEL</span>
                 </div>
-
-                <div>
-                    <img src="images/work2websitebytetechimg.png" class="work2websitebytetech-img">
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved a full penetration test on two target virtual machines (VM2 and VM3) within a simulated corporate environment. Using Kali Linux, I performed network mapping, service enumeration, and vulnerability scanning, followed by exploitation through RFI (Remote File Inclusion) and RCE (Remote Code Execution) to gain reverse shell access.<br>Privilege escalation on VM3 was achieved via a backdoor password discovered in a PCAP file and a sudo misconfiguration.
+                                </p>
+                                <p class="work-description">
+                                    The exercise resulted in the discovery of 9 flags across both systems, providing hands-on experience in ethical hacking, vulnerability assessment, and professional reporting.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/9/Relatório de Pentest Hacking CTF da Empresa Fictícia Ltda._UFCD9194_JoaoCCordeiro.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/9/Relatório de Pentest Hacking CTF da Empresa Fictícia Ltda._UFCD9194_JoaoCCordeiro - english.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                    <a href="files/trabalhos cinel/9/Pentest Hacking CTF da Empresa Fictícia Ltda._UFCD9194_JoaoCCordeiro.pptx" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-powerpoint"></i></i> Power Point (PT)
+                                    </a>
+                                    <a href="https://lnkd.in/p/edUkCXtm" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/9/9img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
 
-            <div class="portfolio-work3">
-
-                <div>
-                    <img src="images/work3wipimg.png" class="work3wip-img">
+            <!-- WORK ITEM 4 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">NetCorp: Enterprise Network Infrastructure Project - UFCD 5106 CINEL</span>
                 </div>
-
-                <div class="work3-text">
-                    <h2>Website Development / Web Application Development</h2>
-                    <p>Creation of a landing page / showcase website and creation of a web application responsible for helping with various IT related tasks.<br>Still in development.</p>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved designing and implementing a complete corporate network for NetCorp, including a redundant Data Center and three branch offices. Using Cisco Packet Tracer, I configured VLANs with VTP and EtherChannel, implemented HSRP for gateway redundancy, and deployed dynamic routing protocols (OSPF, EIGRP, and RIP) with route redistribution across the network. Security measures included NAT overload (PAT) for Internet access, ACLs for traffic filtering, port-security, DHCP snooping, and Dynamic ARP Inspection at Layer 2.
+                                </p>
+                                <p class="work-description">
+                                    Centralized authentication was established using AAA with TACACS+/RADIUS, along with IEEE 802.1X port-based access control and SSH for secure device management. A remote access VPN was also configured to enable secure connectivity between branches.<br>The project concluded with comprehensive testing of routing, NAT, ACLs, and security features.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/8/Projeto Final Redes de Computadores – Implementação de Rede NETCORP.pkt" 
+                                    class="download-link" 
+                                    target="_blank">
+                                        <i class="fa-solid fa-diagram-project"></i> Packet Tracer
+                                    </a>
+                                    <a href="files/trabalhos cinel/8/CET104_Implementação de Rede NETCORP_UFCD5106_João_CCordeiro.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/8/CET104_Implementação de Rede Corporativa NETCORP_UFCD_5106_João_CCordeiro - english.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/8/8img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
+            <!-- WORK ITEM 5 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">SIEM Implementation with Wazuh: Threat Detection, Active Response & Automated Blocking - UFCD 9195 CINEL</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved deploying a complete security monitoring infrastructure using Wazuh as the SIEM platform, with agents installed on Debian, Rocky Linux, and Windows 10/11 systems. I configured File Integrity Monitoring (FIM) on critical directories across all agents, implemented active response to automatically delete malware (using EICAR test files and VirusTotal hash verification), and set up automated IP blocking for attack sources detected via Nmap port scans and ZAP web application attacks.
+                                </p>
+                                <p class="work-description">
+                                    The configuration included custom alert rules and active response scripts to block malicious IPs for specific time windows.<br>Additionally, I organized agents into Windows and Linux groups, enabling tailored security policies per group.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/7/CET104_Trabalho_UFCD_9195_Set_2025_João_CCordeiro.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/7/CET104_Trabalho_UFCD_9195_Set_2025_João_CCordeiro - english.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                    <a href="https://lnkd.in/p/e4dwRcVY" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/7/7img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 6 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Network Infrastructure & Security Implementation: VLAN Segmentation, AAA & Access Control - UFCD 5104 CINEL </span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved designing and implementing a complete network infrastructure using VLSM for IP address allocation across three VLANs (10, 20, and 30). The setup included VTP configuration (server/client model), inter-VLAN routing, and a central server providing DNS, DHCP, TACACS+ for AAA authentication, 802.1X network access control, Syslog for monitoring, and NTP for time synchronization.
+                                </p>
+                                <p class="work-description">
+                                    Additional security measures included port-security with MAC address restrictions, DHCP snooping and ARP inspection to prevent protocol-based attacks, and PortFast with BPDU protection on access ports.<br>All configurations were validated with end-to-end connectivity and service testing.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/6/Prova Avaliaçao_v1_5104_CET104_JoãoCCordeiro.pkt" 
+                                    class="download-link" 
+                                    target="_blank">
+                                        <i class="fa-solid fa-diagram-project"></i> Packet Tracer
+                                    </a>
+                                    <a href="https://lnkd.in/p/esqS6mS2" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/6/6img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 7 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Vulnerability Assessment with OpenVAS & Nessus, Automated Scanning and Reporting - UFCD 9192 CINEL</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved deploying two vulnerability scanners OpenVAS on Kali Linux and Nessus on Linux Mint to perform scheduled, automated scans against target systems (Windows Server 2022 and CentOS 7).
+                                </p>
+                                <p class="work-description">
+                                    The OpenVAS scans were configured to generate PDF reports automatically saved to a Windows network share, and XML reports transferred via SCP to the CentOS system. <br>Nessus was used for additional scans with XML output. The project also included a comparative analysis of both tools' results, identifying strengths and weaknesses in their reporting and detection capabilities.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/5/CET104_Trabalho2_UFCD_9192_Set_2025_João_CCordeiro.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/5/CET104_Trabalho2_UFCD_9192_Set_2025_João_CCordeiro - english.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                    <a href="https://lnkd.in/p/ecPTFUvP" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/5/5img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 8 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Digital Forensics & Evidence Detection, Malware Infection Analysis - UFCD 9192 CINEL</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved analyzing a network traffic capture file to identify and document evidence of a malware infection on a Windows system. Using forensic techniques, I extracted critical artifacts including the infected machine's IP, MAC address, and hostname, the compromised user account, the SHA256 hash of the malicious executable, and the attacker's IP and domain.
+                                </p>
+                                <p class="work-description">
+                                    The investigation also identified the type of malware based on traffic alerts, providing a comprehensive forensic report with full-screen evidence images.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/4/CET104_Trabalho1_UFCD_9192_Set_2025_João_CCordeiro.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/4/CET104_Trabalho1_UFCD_9192_Set_2025_João_CCordeiro - english.pdf" class="download-link" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                    <a href="https://lnkd.in/p/ecPTFUvP" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/4/4img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 9 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Centralized Logging & Web Services Monitoring - UFCD 9191 CINEL</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved deploying a centralized logging infrastructure across multiple Linux distributions (Rocky, Alma, and Debian) using Syslog-ng, Grafana, Loki, and Promtail. The setup included Apache and Nginx web servers on Alma and Debian, each hosting distinct websites with different authentication methods (basic auth and htpasswd). All web server logs were collected by Syslog-ng and sent to the Rocky server for centralized storage and visualization in Grafana.
+                                </p>
+                                <p class="work-description">
+                                    The project also included a brute-force attack simulation on Alma's SSH service using Kali Linux, with the attack logs captured and displayed in Grafana, as well as a packet capture demonstration (tcpdump) on Debian to intercept credentials from an authenticated Nginx site.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/3/CET104_Trabalho_UFCD_9191_Set_2025_João_CCordeiro.pdf" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/3/CET104_Trabalho_UFCD_9191_Set_2025_João_CCordeiro - english.pdf" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                    <a href="https://lnkd.in/p/eZjgDxPR" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/3/3img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 10 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Web Services Deployment with Apache, Nginx & Active Directory Integration - MOD 0839 CINEL</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project involved deploying a Linux-based web infrastructure on Rocky Linux, integrating Apache and Nginx services with a Windows Server 2022 Domain Controller for authentication and DNS resolution. The setup included a reverse proxy configuration with RoundRobin load balancing on port 8282 with SSL/TLS responses on port 51515, an Apache site with Active Directory authentication (port 41414) restricted to the IT group and specific working hours, an Nginx site with basic authentication (port 55555), an Apache SSL/TLS site (port 34433), and three Nginx name-based virtual hosts on port 80.
+                                </p>
+                                <p class="work-description">
+                                    All services were tested from a Windows 10 client, with SELinux and Firewalld active, ensuring secure access through domain-resolved URLs.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos cinel/2/CET104_Trabalho_Final_Linux_Serviços_de_Redes_MOD230_UF0839_JoãoCCordeiro.pdf" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos cinel/2/CET104_Trabalho_Final_Linux_Serviços_de_Redes_MOD230_UF0839_JoãoCCordeiro - english.pdf" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                    <a href="https://lnkd.in/p/e66ic3Sk" target="_blank" class="linkedin-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn Post
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/2/2img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 11 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Network Infrastructure & Cybersecurity Project - UFCD 5892 CINEL</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This project designed a network with pfSense (HTTPS on port 7777), a Windows Server DC (DHCP/DNS for cinel.pt), and a Kali MITM attack. It also included OSINT tasks on a resort photo and the Hack This Site platform, reinforcing skills in network admin, security, and open-source intel.
+                                </p>
+                                <p class="work-description">
+                                    The image is related to the work.
+                                </p>
+                                <div class="work-links">
+                                    <a href="files/trabalhos%20cinel/1/CET.CIBS.D.L.104%20trabalho%20final%20modelos%20de%20gestao%20de%20redes.pdf" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> PT
+                                    </a>
+                                    <a href="files/trabalhos%20cinel/1/CET.CIBS.D.L.104%20trabalho%20final%20modelos%20de%20gestao%20de%20redes%20-%20english.pdf" class="download-link" target="_blank">
+                                        <i class="fa-regular fa-file-pdf"></i> EN
+                                    </a>
+                                </div>      
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="files/trabalhos cinel/1/1img.png" alt="Temp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 12 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">Byte Tech - Hardware Development Website</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This is a multi-page website created using HTML, CSS, and JavaScript which showcases a company specializing in hardware development services. The website aims at providing detailed information about the company's offerings, team, and contact options.
+                                </p>
+                                <p class="work-description">
+                                    This website was created to support another work involving the company Byte Tech which is a fictional company planned by me, all of it is purely for showcase purposes.
+                                </p>
+                                <p class="work-description">
+                                    Access the website on my GitHub or directly at:
+                                    <a href="https://cordeiro50.github.io/byte-tech-hardwaredevelopment/" target="_blank" class="work-link-external">
+                                        cordeiro50.github.io/byte-tech-hardwaredevelopment/
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="images/work12websitebytetechimg.png" alt="Byte Tech Website" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK ITEM 13 -->
+            <div class="work-item">
+                <div class="work-header">
+                    <span class="arrow-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                    <span class="work-title">@shotbycristiano - Photography Portfolio Website</span>
+                </div>
+                <div class="work-body">
+                    <div class="work-body-inner">
+                        <div class="work-body-row">
+                            <div class="work-text-content">
+                                <p class="work-description">
+                                    This is a website requested by a friend of mine, with the objective to act as a portfolio for his various photographs.
+                                </p>
+                                <p class="work-description">
+                                    Similarly to the rest of my websites, it was made with a combination of HTML, CSS and JavaScript.<br>It was also the first website someone else requested me to do.</br>
+                                </p>
+                                <p class="work-description">
+                                    Soon the website will be open.
+                                </p>
+                                <p class="work-description" style="color: #f59e0b; font-weight: 600;">
+                                    🚧 Still in development.
+                                </p>
+                            </div>
+                            <div class="work-image-expanded">
+                                <img src="images/work13websiteronaldo.png" alt="Byte Tech Website" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
-    </section>
+
+    </div>
+</section>
 
 <!------------------------------------------------Certifications / Achievements-------------------------------------------------------->
     <section id="certifications">
-        <div class="certifications-contents">
-                
-            <div class="certifications-title">
-                <h1>Certifications / Achievements</h1>
+    <div class="certifications-contents">
+
+        <div class="certifications-title">
+            <h1>Certifications / Achievements</h1>
+        </div>
+
+        <!-- ===== CERTIFICATES GRID ===== -->
+        <div class="certificates-grid">
+
+
+            <!-- CARD 1 -->
+            <div class="cert-card" data-title="CINEL Course Certificate" 
+                 data-description="Certificate of the course Specialist in Cybersecurity provided by CINEL (Centro de Formação Profissional da Indústria Electrónica, Energia, Telecomunicações e Tecnologias da Informação) from 2025 to 2026. I'll receive this certificate when i finish the internship provided by the school." 
+                 data-image="images/certificates/cinellogo.png" 
+                 data-link="">
+                <img src="images/certificates/cinellogo.png" alt="CINEL Course Certificate" class="cert-card-img">
+                <p class="cert-card-title">CINEL Course Certificate</p>
             </div>
 
-            <div class="certifications1">
-                <div class="certifications-sub-title1">
-                    <h2>Certificates Involving Education</h2>
-                </div>
-                <div class="certifications-education-imgs">
-                    <div>
-                        <img src="images/ecldeclaracaoimg.png" class="ecldeclaracao-img">
-                        <a class="pdf-download-ecldeclaracao" href="files/declaração conclusão de curso ecl.pdf" download><i class="fa-regular fa-file-pdf"></i></a>
-                    </div>
-                    <div>
-                        <img src="images/ieltscertificadoimg.png" class="ieltscertificado-img">
-                        <a class="pdf-download-ieltscertificado" href="files/certificado ielts pfd.pdf" download><i class="fa-regular fa-file-pdf"></i></a>    
-                    </div>
-                </div>
+            <!-- CARD 2 -->
+            <div class="cert-card" data-title="CINEL Course Certificate" 
+                 data-description="Certificate of the Linux course aimed at installation, configuraion and network services provided by CINEL (Centro de Formação Profissional da Indústria Electrónica, Energia, Telecomunicações e Tecnologias da Informação) during 2025." 
+                 data-image="images/certificates/cinelcert2.png" 
+                 data-link="files/[MOD.ICIBS.C.D.230] Técnicoa Especialista em Cibersegurança - PFA Parcial - Certificado.pdf">
+                <img src="images/certificates/cinellogo.png" alt="IELTS Certificate" class="cert-card-img">
+                <p class="cert-card-title">CINEL Course Certificate</p>
             </div>
-                    
-            <div class="certifications2">
-                <div class="certifications-sub-title2">
-                    <h2>Other Certifications / Online Courses.</h2>
-                </div>
-                
-                <p>CS50x Introduction to Computer Science Course by Harvard.<br>Currently participating in CS50 Cybersecurity Course by Harvard.<br>Driver's License B.</p>
+
+            <!-- CARD 3 -->
+            <div class="cert-card" data-title="ECL Course Completion" 
+                 data-description="Declaration of completion for the CINEL (Escola Comércio de Lisboa) Instalation and Management of Networks course, validating foundational IT skills." 
+                 data-image="images/certificates/ecldeclaracaoimg.png" 
+                 data-link="files/declaração conclusão de curso ecl.pdf">
+                <img src="images/certificates/eclimg.png" alt="ECL Certificate" class="cert-card-img">
+                <p class="cert-card-title">ECL Course Completion</p>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="cert-card" data-title="IELTS Certificate" 
+                 data-description="International English Language Testing System (IELTS) certificate, demonstrating English language proficiency for academic and professional purposes. Earning me a C1 level." 
+                 data-image="images/certificates/ieltscertificadoimg.png" 
+                 data-link="files/certificado ielts pfd.pdf">
+                <img src="images/certificates/ieltslogo.png" alt="IELTS Certificate" class="cert-card-img">
+                <p class="cert-card-title">IELTS Certificate</p>
+            </div>
+
+            <!------------------------------------->
+
+            <!-- CARD 5 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 9 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 10 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 11 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 12 -->
+            <div class="cert-card" data-title="Online Course" 
+                 data-description="Temp" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Online Course" class="cert-card-img">
+                <p class="cert-card-title">Online Course</p>
+            </div>
+
+            <!-- CARD 13 -->
+            <div class="cert-card" data-title="B Driver's License" 
+                 data-description="B Driver's License" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="B Driver's License" class="cert-card-img">
+                <p class="cert-card-title">B Driver's License</p>
+            </div>
+
+            <!-- CARD 14 -->
+            <div class="cert-card" data-title="Volunteering Work at ECL School" 
+                 data-description="Volunteering Work at ECL School" 
+                 data-image="" 
+                 data-link="">
+                <img src="" alt="Volunteering Work at ECL School" class="cert-card-img">
+                <p class="cert-card-title">Volunteering Work at ECL School</p>
             </div>
 
         </div>
+
+    </div>
     </section>
+
+    <!-- ===== MODAL (Hidden by default) ===== -->
+    <div id="certModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content-container">
+            <div class="modal-header">
+                <h2 id="modalTitle">Certificate Title</h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal-text">
+                    <p id="modalDescription">Certificate description goes here.</p>
+                    <a id="modalLink" href="#" target="_blank" class="modal-download-link">
+                        <i class="fa-regular fa-file-pdf"></i> View / Download Certificate
+                    </a>
+                </div>
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Certificate" />
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-------------------------------------------------------footer-------------------------------------------------------------------->
     <footer id="footer">
@@ -567,6 +1144,82 @@
         });
         });
     </script>
+
+
+    <!--------my work expand boxes---------->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const workItems = document.querySelectorAll('.work-item');
+
+            workItems.forEach(item => {
+                item.addEventListener('click', (e) => {
+                    // Ignore clicks on links inside the expanded area
+                    if (e.target.closest('a') || e.target.closest('.work-links')) return;
+
+                    // Optional: Close other items (accordion mode)
+                    // workItems.forEach(other => {
+                    //     if (other !== item) other.classList.remove('open');
+                    // });
+
+                    item.classList.toggle('open');
+                });
+            });
+
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+        const cards = document.querySelectorAll('.cert-card');
+        const modal = document.getElementById('certModal');
+        const closeBtn = document.querySelector('.modal-close');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDescription = document.getElementById('modalDescription');
+        const modalImage = document.getElementById('modalImage');
+        const modalLink = document.getElementById('modalLink');
+
+        // Open modal on card click
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                const title = card.dataset.title || 'Certificate';
+                const description = card.dataset.description || 'No description available.';
+                const image = card.dataset.image || '';
+                const link = card.dataset.link || '#';
+
+                modalTitle.textContent = title;
+                modalDescription.textContent = description;
+                modalImage.src = image;
+                modalLink.href = link;
+
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Close modal
+        const closeModal = () => {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        };
+
+        closeBtn.addEventListener('click', closeModal);
+
+        // Close on background click
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+    });
+    </script>
+
+
 
     <!--------translation---------->
     <script>
